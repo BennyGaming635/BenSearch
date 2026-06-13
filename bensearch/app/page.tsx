@@ -12,7 +12,7 @@ export default function Home() {
         <SearchBar />
       </div>
       <p className="mt-8 text-sm text-gray-400">
-        Created by the team behind <a href="https://nobs.au" className="underline">NoBS</a>.
+        Made with the community at heart.
       </p>
     </main>
   )
