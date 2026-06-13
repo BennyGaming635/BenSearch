@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { GitCommitVertical , LineStyle, Mail } from "lucide-react";
+import { GitCommitVertical, Mail } from "lucide-react";
 
 export default function Footer() {
     return (
