@@ -22,5 +22,41 @@
         "url": "https://hackclub.com",
         "description": "Hack Club is a global network of coding clubs for high school students.",
         "filters": ["education", "coding", "nfp"]
+    },
+    {
+        "title": "GitHub",
+        "url": "https://github.com",
+        "description": "GitHub is a platform for hosting and collaborating on code.",
+        "filters": ["code", "collaboration", "tools"]
+    },
+    {
+        "title": "Reddit",
+        "url": "https://reddit.com",
+        "description": "Reddit is a social news aggregation and discussion website.",
+        "filters": ["social", "news", "discussion"]
+    },
+    {
+        "title": "Stack Overflow",
+        "url": "https://stackoverflow.com",
+        "description": "Stack Overflow is a question and answer site for programmers.",
+        "filters": ["programming", "questions", "answers"]
+    },
+    {
+        "title": "Wikipedia",
+        "url": "https://wikipedia.org",
+        "description": "Wikipedia is a free online encyclopedia.",
+        "filters": ["encyclopedia", "knowledge", "free"]
+    },
+    {
+        "title": "YouTube",
+        "url": "https://youtube.com",
+        "description": "YouTube is a video sharing platform.",
+        "filters": ["video", "entertainment", "social"]
+    },
+    {
+        "title": "Twitter",
+        "url": "https://twitter.com",
+        "description": "Twitter is a social media platform for sharing short messages.",
+        "filters": ["social", "news", "entertainment"]
     }
 ]
