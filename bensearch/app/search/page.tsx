@@ -1,7 +1,7 @@
-import sites from "@/data/sites.json";
 import Logo from "@/components/Logo";
 import SearchBar from "@/components/SearchBar";
 import SearchResult from "@/components/SearchResult";
+import { parseSearchQuery, search } from "@/lib/search";
 
 type SearchParams = Promise<{
     q: string;
@@ -13,13 +13,9 @@ export default async function Search({
     searchParams: SearchParams;
 }) {
     const params = await searchParams;
-    const query = (params.q || "").toLowerCase();
-    const results = sites.filter(
-        (site) =>
-            site.title.toLowerCase().includes(query) ||
-            site.description.toLowerCase().includes(query) ||
-            site.url.toLowerCase().includes(query)
-    );
+    const rawQuery = params.q || "";
+    const { filters } = parseSearchQuery(rawQuery);
+    const results = search(rawQuery);
 
     return (
         <main className="min-h-screen max-w-5xl mx-auto p-6">
@@ -30,6 +26,19 @@ export default async function Search({
             <div className="mb-8">
                 <SearchBar />
             </div>
+
+            {filters.length > 0 && (
+                <div className="flex flex-wrap gap-2 mb-4">
+                    {filters.map((filter) => (
+                        <span
+                            key={filter}
+                            className="inline-flex items-center rounded-full border border-gray-300 bg-gray-100 px-3 py-1 text-sm text-gray-700"
+                        >
+                            {filter}
+                        </span>
+                    ))}
+                </div>
+            )}
 
             <p className="text-gray-500 mb-6">
                 Found {results.length} result
