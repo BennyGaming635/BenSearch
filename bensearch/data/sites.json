@@ -21,7 +21,7 @@
         "title": "Hack Club",
         "url": "https://hackclub.com",
         "description": "Hack Club is a global network of coding clubs for high school students.",
-        "filters": ["education", "coding", "nfp"]
+        "filters": ["education", "code", "nfp"]
     },
     {
         "title": "GitHub",
