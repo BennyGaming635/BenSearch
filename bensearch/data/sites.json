@@ -2,21 +2,25 @@
     {
         "title": "NoBS",
         "url": "https://bgbs.au",
-        "description": "NoBS is a privacy-focused link shortner."
+        "description": "NoBS is a privacy-focused link shortner.",
+        "filters": ["shortner", "tools", "privacy"]
     },
     {
         "title": "DuckDuckGo",
         "url": "https://duckduckgo.com",
-        "description": "DuckDuckGo is a privacy-focused search engine."
+        "description": "DuckDuckGo is a privacy-focused search engine.",
+        "filters": ["search", "privacy"]
     },
     {
         "title": "Brave Search",
         "url": "https://search.brave.com",
-        "description": "Brave Search is a privacy-focused search engine."
+        "description": "Brave Search is a privacy-focused search engine.",
+        "filters": ["search", "privacy"]
     },
     {
         "title": "Hack Club",
         "url": "https://hackclub.com",
-        "description": "Hack Club is a global network of coding clubs for high school students."
+        "description": "Hack Club is a global network of coding clubs for high school students.",
+        "filters": ["education", "coding", "nfp"]
     }
 ]
