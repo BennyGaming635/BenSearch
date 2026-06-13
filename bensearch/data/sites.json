@@ -1,0 +1,22 @@
+[
+    {
+        "title": "NoBS",
+        "url": "https://nobs.au",
+        "description": "NoBS is a privacy-focused link shortner."
+    },
+    {
+        "title": "DuckDuckGo",
+        "url": "https://duckduckgo.com",
+        "description": "DuckDuckGo is a privacy-focused search engine."
+    },
+    {
+        "title": "Brave Search",
+        "url": "https://search.brave.com",
+        "description": "Brave Search is a privacy-focused search engine."
+    },
+    {
+        "title": "Hack Club",
+        "url": "https://hackclub.com",
+        "description": "Hack Club is a global network of coding clubs for high school students."
+    }
+]
