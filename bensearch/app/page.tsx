@@ -1,3 +1,4 @@
+import Footer from '@/components/Footer';
 import Logo from '@/components/Logo';
 import SearchBar from '@/components/SearchBar';
 
