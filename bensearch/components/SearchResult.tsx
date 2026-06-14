@@ -16,7 +16,7 @@ export default function SearchResult({
             href={url}
             target="_blank"
             rel="noopener noreferrer"
-            className="block rounded-lg p-4 hover:bg-muted transition"
+            className="block rounded-lg border border-white/20 p-4 hover:bg-muted transition"
         >
             <div className="flex items-center gap-3 mb-2">
                 <img
@@ -24,7 +24,7 @@ export default function SearchResult({
                     alt=""
                     width={24}
                     height={24}
-                    className="rounded"
+                    className="rounded bg-black/10"
                 />
 
                 <div>
