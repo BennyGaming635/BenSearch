@@ -2,6 +2,7 @@ import Logo from "@/components/Logo";
 import SearchBar from "@/components/SearchBar";
 import SearchResult from "@/components/SearchResult";
 import { parseSearchQuery, search } from "@/lib/search";
+import { redirect } from "next/navigation";
 
 type SearchParams = Promise<{
     q: string;
