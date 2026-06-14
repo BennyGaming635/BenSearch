@@ -58,5 +58,107 @@
         "url": "https://twitter.com",
         "description": "Twitter is a social media platform for sharing short messages.",
         "filters": ["social", "news", "entertainment"]
+    },
+    {
+        "title": "Facebook",
+        "url": "https://facebook.com",
+        "description": "Facebook is a social media platform for connecting with friends and family.",
+        "filters": ["social", "news", "entertainment"]
+    },
+    {
+        "title": "Python",
+        "url": "https://python.org",
+        "description": "Python is a popular programming language.",
+        "filters": ["programming", "language", "code"]
+    },
+    {
+        "title": "JavaScript",
+        "url": "https://javascript.com",
+        "description": "JavaScript is a popular programming language for web development.",
+        "filters": ["programming", "language", "code"]
+    },
+    {
+        "title": "Rust",
+        "url": "https://rust-lang.org",
+        "description": "Rust is a systems programming language focused on safety and performance.",
+        "filters": ["programming", "language", "code"]
+    },
+    {
+        "title": "Go",
+        "url": "https://golang.org",
+        "description": "Go is a programming language designed for simplicity and efficiency.",
+        "filters": ["programming", "language", "code"]
+    },
+    {
+        "title": "C++",
+        "url": "https://isocpp.org",
+        "description": "C++ is a general-purpose programming language.",
+        "filters": ["programming", "language", "code"]
+    },
+    {
+        "title": "Java",
+        "url": "https://java.com",
+        "description": "Java is a popular programming language for building applications.",
+        "filters": ["programming", "language", "code"]
+    },
+    {
+        "title": "Ruby",
+        "url": "https://ruby-lang.org",
+        "description": "Ruby is a dynamic, open source programming language with a focus on simplicity and productivity.",
+        "filters": ["programming", "language", "code"]
+    },
+    {
+        "title": "PHP",
+        "url": "https://php.net",
+        "description": "PHP is a popular server-side scripting language for web development.",
+        "filters": ["programming", "language", "code"]
+    },
+    {
+        "title": ".NET",
+        "url": "https://dotnet.microsoft.com",
+        "description": ".NET is a free, cross-platform, open source developer platform for building many different types of applications.",
+        "filters": ["programming", "framework", "code"]
+    },
+    {
+        "title": "Steam",
+        "url": "https://store.steampowered.com",
+        "description": "Steam is a digital distribution platform for video games.",
+        "filters": ["gaming", "entertainment", "social"]
+    },
+    {
+        "title": "ABC News (US)",
+        "url": "https://abcnews.go.com",
+        "description": "ABC News (United States) is a news organistation owned by the Disney Media Networks division of The Walt Disney Company.",
+        "filters": ["news", "media", "entertainment"]
+    },
+    {
+        "title": "ABC News (Australia)",
+        "url": "https://abc.net.au/news",
+        "description": "ABC News (Australia) is a news organistation owned by the Australian Broadcasting Corporation.",
+        "filters": ["news", "media", "entertainment"]
+    },
+    {
+        "title": "BBC News",
+        "url": "https://bbc.com/news",
+        "description": "BBC News is a news organistation owned by the British Broadcasting Corporation.",
+        "filters": ["news", "media", "entertainment"]
+    },
+    {
+        "title": "CNN",
+        "url": "https://cnn.com",
+        "description": "CNN is a news organistation owned by WarnerMedia News & Sports.",
+        "filters": ["news", "media", "entertainment"]
+    },
+    {
+        "title": "The New York Times",
+        "url":"https://nytimes.com",
+        "description":"The New York Times is a news organistation owned by The New York Times Company.",
+        "filters":["news", "media", "entertainment"]
+    },
+    {
+        "title": "IGN",
+        "url": "https://ign.com",
+        "description": "IGN is a video game news and reviews website.",
+        "filters": ["gaming", "entertainment", "reviews"]
     }
 ]
