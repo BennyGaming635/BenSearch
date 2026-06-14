@@ -3,4 +3,12 @@ BenSearch was originally an idea to practially dump Google Search because I hate
 
 While BenSearch does have a crawler (BenSearchBot), we don't use massive scrapers (similar to LLMs and those companies) to protect the world, your privacy and to just have less BS in our lives :D
 
+When you use BenSearch, you are also able to use many parameters in your search to find and curate your search by using different arguments.
+
+At the moment, you can use the following parameters/arguments to choose what you see.
+- `site: example.com`: This will only show sites which have 'example.com' as their main domain.
+- `!w answer to life`: This will redirect you to Wikipedia and will also automatically search for your desired term.
+- `!y football highlights`: This will redirect you to YouTube and will also automatically search for what you want to watch.
+- `!g hack club`: This will redirect you to GitHub and will also automatically search for whatever code stuff you're looking for..
+
 This service is provided via the noBS team.
