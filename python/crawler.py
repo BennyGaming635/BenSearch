@@ -52,12 +52,22 @@ def extract_page(url):
     
 def get_links(url, soup):
     links = []
-    for a in soup.find.all("a", href=True):
-        full = urljoin(url, a["href"])
+
+    for a in soup.find_all("a", href=True):
+        href = a["href"]
+        if href.startswith(("javascript:", "mailto:", "#")):
+            continue
+
+        full = urljoin(url, href)
         parsed = urlparse(full)
 
-        if parsed.scheme in ["http", "https"]:
-            links.append(full)
+        if parsed.scheme not in ["http", "https"]:
+            continue
+
+        clean_url = parsed._replace(fragment="").geturl()
+        links.append(clean_url)
+
+    return links
 
 def crawl():
     queue = list(SEEDS)
