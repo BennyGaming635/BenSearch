@@ -160,5 +160,505 @@
         "url": "https://ign.com",
         "description": "IGN is a video game news and reviews website.",
         "filters": ["gaming", "entertainment", "reviews"]
-    }
+    },
+    {
+    "title": "Hack Club — Where teens make cool stuff.",
+    "url": "https://www.hackclub.com/",
+    "description": "Hack Club is the world's largest nonprofit movement of teenagers making cool projects."
+  },
+  {
+    "title": "Welcome to Python.org",
+    "url": "https://www.python.org/",
+    "description": "The official home of the Python Programming Language"
+  },
+  {
+    "title": "Wikipedia",
+    "url": "https://www.wikipedia.org/",
+    "description": "Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation."
+  },
+  {
+    "title": "GitHub · Change is constant. GitHub keeps you ahead. · GitHub",
+    "url": "https://www.github.com/",
+    "description": "Join the world's most widely adopted, AI-powered developer platform where millions of developers, businesses, and the largest open source community build software that advances humanity."
+  },
+  {
+    "title": "Reddit - Please wait for verification",
+    "url": "https://www.reddit.com/",
+    "description": "Reddit - Please wait for verification"
+  },
+  {
+    "title": "Hack Club - YouTube",
+    "url": "https://www.youtube.com/c/HackClubHQ",
+    "description": "Welcome to a worldwide community of high school hackers. We’re artists, writers, engineers, tinkerers, campers, filmmakers, volunteers. We make things. We he..."
+  },
+  {
+    "title": "Programs — Hack Club",
+    "url": "https://www.hackclub.com/programs",
+    "description": "Explore Hack Club programs — coding projects, events, and opportunities for teen makers."
+  },
+  {
+    "title": "Privacy Notice & Terms — Hack Club",
+    "url": "https://www.hackclub.com/privacy-and-terms",
+    "description": "Hack Club's Privacy Notice and Standard Terms and Conditions."
+  },
+  {
+    "title": "GitHub - ayessaaa/specter: game where your last run will become a ghost next run which can help you finish the level · GitHub",
+    "url": "https://github.com/ayessaaa/specter",
+    "description": "game where your last run will become a ghost next run which can help you finish the level - ayessaaa/specter"
+  },
+  {
+    "title": "GitHub - deltea/starbird: a smol game about a bird collecting stars, made for @hackclub milkyway! · GitHub",
+    "url": "https://github.com/deltea/starbird",
+    "description": "a smol game about a bird collecting stars, made for @hackclub milkyway! - deltea/starbird"
+  },
+  {
+    "title": "â­ï¸ starbird â­ï¸ by deltea",
+    "url": "https://deltea.itch.io/starbird",
+    "description": "a smol speedy platformer about birds and stars, made for hack club milkyway"
+  },
+  {
+    "title": "Philanthropy — Hack Club",
+    "url": "https://www.hackclub.com/philanthropy",
+    "description": "Support Hack Club's mission to build a generation of teen makers. Learn how to donate and get involved."
+  },
+  {
+    "title": "GitHub - Dieu-de-l-elec/AngstromIO-devboard: AngstromIO, one of the smallest devboards out there, barely longer than a USB C connector, based on the Attiny1616 MCU. And a dual CH340 board for programming and debugging, and another devboard, based on the CH32V003 · GitHub",
+    "url": "https://github.com/Dieu-de-l-elec/AngstromIO-devboard?tab=readme-ov-file",
+    "description": "AngstromIO, one of the smallest devboards out there, barely longer than a USB C connector, based on the Attiny1616 MCU. And a dual CH340 board for programming and debugging, and another devboard, based on the CH32V003 - Dieu-de-l-elec/AngstromIO-devboard"
+  },
+  {
+    "title": "Alternative Python implementations | Python.org",
+    "url": "https://www.python.org/download/alternatives",
+    "description": "This site hosts the \"traditional\" implementation of Python (nicknamed CPython). A number of alternative implementations are available as well and several vendors have repackaged CPython to include more libraries or specialized it for a particular application."
+  },
+  {
+    "title": "Using Python scripts to analyse SEO and broken links on your site | Our Success Stories | Python.org",
+    "url": "https://www.python.org/success-stories/python-seo-link-analyzer/",
+    "description": "The official home of the Python Programming Language"
+  },
+  {
+    "title": "Documentation - Claude API Docs",
+    "url": "https://docs.anthropic.com/",
+    "description": "Claude API Documentation"
+  },
+  {
+    "title": "Open Source Cloud Computing Infrastructure - OpenStack",
+    "url": "https://www.openstack.org/",
+    "description": "OpenStack is an open source cloud computing infrastructure software project and is one of the three most active open source projects in the world."
+  },
+  {
+    "title": "Community Stories | Python Software Foundation",
+    "url": "https://www.python.org/psf/community-stories/",
+    "description": "The official home of the Python Programming Language"
+  },
+  {
+    "title": "Python Software Foundation News: PSF Welcomes Hudson River Trading (HRT) as a Visionary Sponsor",
+    "url": "https://pyfound.blogspot.com/2026/05/psf-welcomes-hudson-river-trading-hrt.html",
+    "description": "Python Software Foundation News: PSF Welcomes Hudson River Trading (HRT) as a Visionary Sponsor News from the Python Software Foundation Wednesday, May 13, 2026"
+  },
+  {
+    "title": "Python Release Python 3.14.6 | Python.org",
+    "url": "https://www.python.org/downloads/release/python-3146/",
+    "description": "The official home of the Python Programming Language"
+  },
+  {
+    "title": "Applications for Python | Python.org",
+    "url": "https://www.python.org/about/apps/",
+    "description": "The official home of the Python Programming Language"
+  },
+  {
+    "title": "Python Community Awards | Python Software Foundation",
+    "url": "https://www.python.org/community/awards",
+    "description": "The official home of the Python Programming Language"
+  },
+  {
+    "title": "Audio/Video Instructional Materials for Python | Python.org",
+    "url": "https://www.python.org/doc/av",
+    "description": "A growing body of podcasts, screencasts and video presentations for the Python community."
+  },
+  {
+    "title": "Wikipedia",
+    "url": "https://scn.wikipedia.org/",
+    "description": "Wikipedia Va ô cuntinutu Menù mastru Menù mastru sposta nella barra laterale ammuccia Navicazzioni Pàggina mastraPurtali dâ cumunitàCanciati anturaPàggina a muz"
+  },
+  {
+    "title": "Wikipediya",
+    "url": "https://kbp.wikipedia.org/",
+    "description": "Wikipediya Aller au contenu Menu principal Menu principal déplacer vers la barre latérale masquer Tʋʋzɩtʋ Talɩ ɖeuŊgbɛyɛWayɩ wayɩ ñɔɔzɩtʋTakayɩhayʋʋ nakʋyʋ yemS"
+  },
+  {
+    "title": "विकिपीडिया",
+    "url": "https://hi.wikipedia.org/",
+    "description": "विकिपीडिया सामग्री पर जाएँ मुख्य मेन्यू मुख्य मेन्यू साइडबार पर ले जाएँ छिपाएँ परिभ्रमण मुखपृष्ठचौपालहाल में हुए परिवर्तनहाल की घटनाएँसामुदायिक प्रवेशद्वारनिर्व"
+  },
+  {
+    "title": "Wikipedia",
+    "url": "https://guw.wikipedia.org/",
+    "description": "Wikipedia Jump to content Todohukanji tangan Todohukanji tangan move to sidebar whlá Fie a sọgan dinnu te Weda tanganNọtẹn intẹnẹt lẹdo mẹ tọnDiọdo agọe tọn lẹW"
+  },
+  {
+    "title": "Vouiquipèdia",
+    "url": "https://frp.wikipedia.org/",
+    "description": "Vouiquipèdia Aller au contenu Menu principâl Menu principâl déplacer vers la barre latérale cachiér Navegacion ReçuaLa TavèrnaPâge per hasârd Contribucion Portâ"
+  },
+  {
+    "title": "Wikipiidia",
+    "url": "https://kus.wikipedia.org/",
+    "description": "Wikipiidia Iankim keŋ kʋ'ʋlʋmin la Yɛlkpan zin'ig Yɛlkpan zin'ig Vurigim keŋ kpikpɛŋ su'am A-iegilig Zug lakirBɛllimtaas suorNannanna tisaYɔɔg-yɔɔg lakir/zin'ig"
+  },
+  {
+    "title": "Wikipedia, frjálsa alfræðiritið",
+    "url": "https://is.wikipedia.org/",
+    "description": "Wikipedia, frjálsa alfræðiritið Fara í innihald Aðalvalmynd Aðalvalmynd færa í hliðarstiku fela Flakk ForsíðaÚrvalsefniEfnisyfirlitHandahófsvalin síðaHjálp Verk"
+  },
+  {
+    "title": "Wikipedijô, wòlnô encyklopedijô",
+    "url": "https://csb.wikipedia.org/",
+    "description": "Wikipedijô, wòlnô encyklopedijô Przejdź do zawartości Przédné menu Przédné menu przypnij zatacë Nawigacëjô Przédnô starnaPòrtal wëcmaniznëSlédné edicëjeKawlowô "
+  },
+  {
+    "title": "Wikipedia",
+    "url": "https://qu.wikipedia.org/",
+    "description": "Wikipedia Ir al contenido Menú principal Menú principal mover a la barra lateral ocultar Wamp'una Qhapaq p'anqaAyllupaq p'anqaÑaqha hukchasqaMayninpi p'anqaYana"
+  },
+  {
+    "title": "Wikipedia",
+    "url": "https://lb.wikipedia.org/",
+    "description": "Wikipedia Op den Inhalt sprangen Haaptmenü Haaptmenü an déi säitlech Läischt réckelen verstoppen Navigatioun HaaptsäitPortalerAlles vun A-ZZoufälleg SäitSpezial"
+  },
+  {
+    "title": "GitHub CLI | Take GitHub to the command line",
+    "url": "https://cli.github.com",
+    "description": "Take GitHub to the command line"
+  },
+  {
+    "title": "GitHub Actions · GitHub",
+    "url": "https://www.github.com/features/actions",
+    "description": "GitHub is where people build software. More than 150 million people use GitHub to discover, fork, and contribute to over 420 million projects."
+  },
+  {
+    "title": "AI-Powered Manufacturing Solutions | GitHub · GitHub",
+    "url": "https://github.com/solutions/industry/manufacturing",
+    "description": "GitHub is where people build software. More than 150 million people use GitHub to discover, fork, and contribute to over 420 million projects."
+  },
+  {
+    "title": "Sign in for Software Support and Product Help - GitHub Support",
+    "url": "https://support.github.com",
+    "description": "Access your support options and sign in to your account for GitHub software support and product assistance. Get the help you need from our dedicated support team."
+  },
+  {
+    "title": "GitHub Premium Support · GitHub",
+    "url": "https://github.com/premium-support",
+    "description": "Get expert help for Enterprise Cloud and Enterprise—any hour your team needs it."
+  },
+  {
+    "title": "Expert Services | GitHub · GitHub",
+    "url": "https://services.github.com",
+    "description": "From idea to implementation, our experts are ready to help your team get wherever you want to go. Start a conversation with us about how we can bring your goals to life."
+  },
+  {
+    "title": "A Complete CI/CD Solution for Software Development | GitHub · GitHub",
+    "url": "https://github.com/solutions/use-case/ci-cd",
+    "description": "GitHub is where people build software. More than 150 million people use GitHub to discover, fork, and contribute to over 420 million projects."
+  },
+  {
+    "title": "Global Diversity, Inclusion, and Belonging at GitHub · GitHub",
+    "url": "https://www.github.com/about/diversity",
+    "description": "GitHub is where people build software. More than 150 million people use GitHub to discover, fork, and contribute to over 420 million projects."
+  },
+  {
+    "title": "GitHub Copilot Business · GitHub",
+    "url": "https://github.com/features/copilot/copilot-business",
+    "description": "GitHub is where people build software. More than 150 million people use GitHub to discover, fork, and contribute to over 420 million projects."
+  },
+  {
+    "title": "Privacy Policy – Privacy & Terms – Google",
+    "url": "https://www.youtube.com/t/privacy",
+    "description": "Privacy Policy – Privacy & Terms – GoogleSkip to main contentPrivacy & TermsPrivacy & TermsSign inOverviewPrivacy PolicyTerms of ServiceTechnologiesFAQPrivacy &"
+  },
+  {
+    "title": "Official YouTube Blog for Latest YouTube News & Insights",
+    "url": "https://www.youtube.com/about/press/",
+    "description": "Explore our official blog for the latest news about YouTube, creator and artist profiles, culture and trends analyses, and behind-the-scenes insights."
+  },
+  {
+    "title": "YouTube",
+    "url": "https://www.youtube.com/",
+    "description": "Enjoy the videos and music that you love, upload original content and share it all with friends, family and the world on YouTube."
+  },
+  {
+    "title": "Copyright tools: Rightsholders and creators â how YouTube works",
+    "url": "https://www.youtube.com/about/copyright/",
+    "description": "YouTube thrives on originality, and in doing so, it protects its creators through copyright. Learn how copyright helps to identify unoriginal content."
+  },
+  {
+    "title": "YouTube creators â Education and inspiration for video creators",
+    "url": "https://www.youtube.com/creators/",
+    "description": "Explore YouTube creators for everything that you need to know about the video and content creator journey, and how to make the most of yours."
+  },
+  {
+    "title": "Labs page for YouTube",
+    "url": "https://www.youtube.com/new",
+    "description": "Try experimental new features. Sign up to participate in user experience research studies and get rewarded for your time."
+  },
+  {
+    "title": "Contact Us",
+    "url": "https://www.youtube.com/t/contact_us/",
+    "description": "Contact UsAUAbout YouTubeCommunity GuidelinesContact UsCareersContact Us If you need help, please visit our Help Centre. There, you'll find answers to many comm"
+  },
+  {
+    "title": "YouTube policies crafted for openness â how YouTube works",
+    "url": "https://www.youtube.com/about/policies/",
+    "description": "YouTube's policies ensure that our platform allows viewers, creators and advertisers to thrive. Review our guidelines on how we maintain a balance."
+  },
+  {
+    "title": "https://www.youtube.com/ads/",
+    "url": "https://www.youtube.com/ads/",
+    "description": ""
+  },
+  {
+    "title": "Sign in to Hack Club | Slack",
+    "url": "https://hackclub.slack.com/channels/stasis",
+    "description": "Find and sign in to your Slack workspace."
+  },
+  {
+    "title": "GitHub - hackclub/site: 🚩 The fourth iteration of the Hack Club site! · GitHub",
+    "url": "https://github.com/hackclub/site",
+    "description": "🚩 The fourth iteration of the Hack Club site! Contribute to hackclub/site development by creating an account on GitHub."
+  },
+  {
+    "title": "Sign in to Hack Club | Slack",
+    "url": "https://hackclub.slack.com/channels/macondo",
+    "description": "Find and sign in to your Slack workspace."
+  },
+  {
+    "title": "Hack Club Clubs — Start a Club",
+    "url": "https://www.hackclub.com/clubs",
+    "description": "Start a student-led coding club with Hack Club. Get workshops, mentorship, events, tools, and a global community."
+  },
+  {
+    "title": "Fallout",
+    "url": "https://fallout.hackclub.com?utm_source=udb",
+    "description": "Fallout"
+  },
+  {
+    "title": "Home - Stardance",
+    "url": "https://stardance.hackclub.com/program_page",
+    "description": "The largest STEM event of the summer: make anything you want and earn free prizes."
+  },
+  {
+    "title": "Hack Club - YouTube",
+    "url": "https://www.youtube.com/@HackClubHQ/videos",
+    "description": "Welcome to a worldwide community of high school hackers. We’re artists, writers, engineers, tinkerers, campers, filmmakers, volunteers. We make things. We he..."
+  },
+  {
+    "title": "Hack Club · GitHub",
+    "url": "https://github.com/hackclub",
+    "description": "A worldwide community of high school hackers. By the students, for the students. - Hack Club"
+  },
+  {
+    "title": "Off Track — Hack Club",
+    "url": "https://offtrack.hackclub.com",
+    "description": "Off Track — Hack Club"
+  },
+  {
+    "title": "Fiscal Sponsorship — Hack Club",
+    "url": "https://www.hackclub.com/fiscal-sponsorship",
+    "description": "Start your nonprofit with HCB: a 501(c)(3) legal entity, bank account, automatic taxes and accounting, and best-in-class software."
+  },
+  {
+    "title": "The Hack Foundation",
+    "url": "https://the.hackfoundation.org/",
+    "description": "The Hack Foundation partners with over 500 nonprofit organizations including Hack Clubs, hackathons, Little League teams, newspapers, and everything in between to act as their legal and financial entity."
+  },
+  {
+    "title": "Jobs — Hack Club",
+    "url": "https://www.hackclub.com/jobs",
+    "description": "Join the Hack Club team. View open positions and apply to work with us."
+  },
+  {
+    "title": "Code of Conduct — Hack Club",
+    "url": "https://www.hackclub.com/conduct",
+    "description": "Hack Club's Code of Conduct for our community spaces, events, and projects."
+  },
+  {
+    "title": "Hack Club Data Privacy Request",
+    "url": "https://forms.hackclub.com/t/qjFxdohV4Rus",
+    "description": "Made with Fillout, the best way to make forms, surveys and quizzes your audience will answer."
+  },
+  {
+    "title": "Vercel Security Checkpoint",
+    "url": "https://security.hackclub.com",
+    "description": "Vercel Security Checkpoint We're verifying your browser Website owner? Click here to fix Vercel Security Checkpoint | syd1::1781429490-SoURp5FJluGoOdpsy4gVdAeE7"
+  },
+  {
+    "title": "Brand — Hack Club",
+    "url": "https://www.hackclub.com/brand",
+    "description": "Hack Club brand guidelines, logos, colors, and typography for official use."
+  },
+  {
+    "title": "Hack Club – Join our Slack",
+    "url": "https://slack.hackclub.com",
+    "description": "The Hack Club Slack is a community of 27k+ high school hackers around the world. Chat, meet new friends, code together, share your work."
+  },
+  {
+    "title": "Safeguarding Policy — Hack Club",
+    "url": "https://www.hackclub.com/safeguarding",
+    "description": "Hack Club's Events Safeguarding Policy for in-person events."
+  },
+  {
+    "title": "specter/images at main · ayessaaa/specter · GitHub",
+    "url": "https://github.com/ayessaaa/specter/tree/main/images",
+    "description": "game where your last run will become a ghost next run which can help you finish the level - specter/images at main · ayessaaa/specter"
+  },
+  {
+    "title": "specter/icon.svg at main · ayessaaa/specter · GitHub",
+    "url": "https://github.com/ayessaaa/specter/blob/main/icon.svg",
+    "description": "game where your last run will become a ghost next run which can help you finish the level - specter/icon.svg at main · ayessaaa/specter"
+  },
+  {
+    "title": "Forks · ayessaaa/specter · GitHub",
+    "url": "https://github.com/ayessaaa/specter/forks",
+    "description": "game where your last run will become a ghost next run which can help you finish the level - Forks · ayessaaa/specter"
+  },
+  {
+    "title": "GitHub Code Security · GitHub",
+    "url": "https://github.com/security/advanced-security/code-security",
+    "description": "GitHub is where people build software. More than 150 million people use GitHub to discover, fork, and contribute to over 420 million projects."
+  },
+  {
+    "title": "specter/.gitignore at main · ayessaaa/specter · GitHub",
+    "url": "https://github.com/ayessaaa/specter/blob/main/.gitignore",
+    "description": "game where your last run will become a ghost next run which can help you finish the level - specter/.gitignore at main · ayessaaa/specter"
+  },
+  {
+    "title": "community · Discussions · GitHub",
+    "url": "https://github.community/",
+    "description": " Ask questions, get answers, share expertise. "
+  },
+  {
+    "title": "GitHub for Nonprofits · GitHub",
+    "url": "https://github.com/solutions/industry/nonprofits",
+    "description": "GitHub is where people build software. More than 150 million people use GitHub to discover, fork, and contribute to over 420 million projects."
+  },
+  {
+    "title": "Redirecting to GitHub Learn",
+    "url": "https://skills.github.com",
+    "description": "Redirecting to GitHub Learn Redirecting to GitHub Learn..."
+  },
+  {
+    "title": "GitHub Docs",
+    "url": "https://docs.github.com",
+    "description": "Get started, troubleshoot, and make the most of GitHub. Documentation for new users, developers, administrators, and all of GitHub's products."
+  },
+  {
+    "title": "Releases · deltea/starbird · GitHub",
+    "url": "https://github.com/deltea/starbird/releases",
+    "description": "a smol game about a bird collecting stars, made for @hackclub milkyway! - Releases · deltea/starbird"
+  },
+  {
+    "title": "GitHub Enterprise · The AI-powered developer platform for the agent-ready enterprise · GitHub",
+    "url": "https://github.com/enterprise",
+    "description": "GitHub is where people build software. More than 150 million people use GitHub to discover, fork, and contribute to over 420 million projects."
+  },
+  {
+    "title": "GitHub · Change is constant. GitHub keeps you ahead. · GitHub",
+    "url": "https://github.com",
+    "description": "Join the world's most widely adopted, AI-powered developer platform where millions of developers, businesses, and the largest open source community build software that advances humanity."
+  },
+  {
+    "title": "starbird/shaders at main · deltea/starbird · GitHub",
+    "url": "https://github.com/deltea/starbird/tree/main/shaders",
+    "description": "a smol game about a bird collecting stars, made for @hackclub milkyway! - starbird/shaders at main · deltea/starbird"
+  },
+  {
+    "title": "Upcoming GitHub events, webinars & developer conferences · GitHub",
+    "url": "https://github.com/resources/events",
+    "description": "Discover upcoming GitHub events, webinars, and conferences. Connect with developers, explore new tools, and learn how to build, secure, and scale software with GitHub."
+  },
+  {
+    "title": "Projects · starbird · GitHub",
+    "url": "https://github.com/deltea/starbird/projects",
+    "description": "GitHub is where people build software. More than 150 million people use GitHub to discover, fork, and contribute to over 420 million projects."
+  },
+  {
+    "title": "Solutions | Executive Insights · GitHub",
+    "url": "https://github.com/solutions/executive-insights",
+    "description": "GitHub is where people build software. More than 150 million people use GitHub to discover, fork, and contribute to over 420 million projects."
+  },
+  {
+    "title": "starbird/scenes at main · deltea/starbird · GitHub",
+    "url": "https://github.com/deltea/starbird/tree/main/scenes",
+    "description": "a smol game about a bird collecting stars, made for @hackclub milkyway! - starbird/scenes at main · deltea/starbird"
+  },
+  {
+    "title": "Just a moment...",
+    "url": "https://itch.io/login?return_to=https%3A%2F%2Fdeltea.itch.io%2Fstarbird&intent=community",
+    "description": "Just a moment...Enable JavaScript and cookies to continue"
+  },
+  {
+    "title": "Just a moment...",
+    "url": "https://itch.io/login?return_to=https%3A%2F%2Fdeltea.itch.io%2Fstarbird",
+    "description": "Just a moment...Enable JavaScript and cookies to continue"
+  },
+  {
+    "title": "Top games made with Godot - itch.io",
+    "url": "https://itch.io/games/made-with-godot",
+    "description": "Find games made with Godot like HAM HOLE, SLIME SOUP, Synapse, Terminal Flesh, Sinner Maker (demo) on itch.io, the indie game hosting marketplace"
+  },
+  {
+    "title": "deltea - itch.io",
+    "url": "https://itch.io/profile/deltea",
+    "description": "deltea - itch.ioSkip to main contentitch.ioBrowse GamesGame JamsUpload GameDeveloper LogsCommunityLog inRegisterIndie game storeFree gamesFun gamesHorror gamesG"
+  },
+  {
+    "title": "ShrimpCat - itch.io",
+    "url": "https://itch.io/profile/shrimpcat-games",
+    "description": "ShrimpCat - itch.ioSkip to main contentitch.ioBrowse GamesGame JamsUpload GameDeveloper LogsCommunityLog inRegisterIndie game storeFree gamesFun gamesHorror gam"
+  },
+  {
+    "title": "Top games tagged Pixel Art - itch.io",
+    "url": "https://itch.io/games/tag-pixel-art",
+    "description": "Find games tagged Pixel Art like COBB CAN MOVE, UFO 50 Nonograms, SLIME SOUP, Don't Let It Starve, Fugue Shot (Pre-Demo) on itch.io, the indie game hosting marketplace. Pixel Art refers to the charming, simplistic, retro/renaissance style of very-low-resolution graphics, such as from the"
+  },
+  {
+    "title": "Toolbox – Hack Club",
+    "url": "https://toolbox.hackclub.com/",
+    "description": "Tools for hacking, learning, and leading."
+  },
+  {
+    "title": "Events – Hack Club",
+    "url": "https://events.hackclub.com/",
+    "description": "See the upcoming events from the Hack Club high school coding community: AMAs, CTFs, fireside chats, live coding sessions, & lots more."
+  },
+  {
+    "title": "Give to Hack Club HQ – HCB",
+    "url": "https://hcb.hackclub.com/donations/start/hq?utm_source=site&utm_medium=internal&utm_campaign=philanthropy_page&utm_content=hero_button",
+    "description": "Donate to Hack Club HQ. Your contribution will be tax-deductible."
+  },
+  {
+    "title": "Imprint — Hack Club",
+    "url": "https://www.hackclub.com/imprint",
+    "description": "Legal notice and contact details for Hack Club (The Hack Foundation)."
+  },
+  {
+    "title": "Philosophy — Hack Club",
+    "url": "https://www.hackclub.com/philosophy",
+    "description": "Hack Club's philosophy on coding, learning, and building a community of teenage makers."
+  },
+  {
+    "title": "GitHub - Dieu-de-l-elec/AngstromIO-devboard: AngstromIO, one of the smallest devboards out there, barely longer than a USB C connector, based on the Attiny1616 MCU. And a dual CH340 board for programming and debugging, and another devboard, based on the CH32V003 · GitHub",
+    "url": "https://github.com/Dieu-de-l-elec/AngstromIO-devboard",
+    "description": "AngstromIO, one of the smallest devboards out there, barely longer than a USB C connector, based on the Attiny1616 MCU. And a dual CH340 board for programming and debugging, and another devboard, based on the CH32V003 - Dieu-de-l-elec/AngstromIO-devboard"
+  },
+  {
+    "title": "Government Agency Software Development Solutions | GitHub · GitHub",
+    "url": "https://github.com/solutions/industry/government",
+    "description": "GitHub is where people build software. More than 150 million people use GitHub to discover, fork, and contribute to over 420 million projects."
+  },
+  {
+    "title": "GitHub Features · GitHub",
+    "url": "https://github.com/features",
+    "description": "GitHub is where people build software. More than 150 million people use GitHub to discover, fork, and contribute to over 420 million projects."
+  }
 ]
