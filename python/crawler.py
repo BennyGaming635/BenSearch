@@ -26,7 +26,7 @@ def extract_page(url):
         r = requests.get(url, timeout =5, headers={
             "User-Agent": "BenSearchBot/1.0"
         })
-        if "text/html" in r.headers.get("Content-Type", ""):
+        if "text/html" not in r.headers.get("Content-Type", ""):
             return None
         
         soup = BeautifulSoup(r.text, "lxml")
