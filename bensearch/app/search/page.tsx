@@ -15,6 +15,12 @@ export default async function Search({
 }) {
     const params = await searchParams;
     const rawQuery = params.q || "";
+
+    if (rawQuery.toLowerCase().startsWith("!w ")) {
+        const searchTerm = rawQuery.slice(3).trim();
+        redirect(`https://en.wikipedia.org/wiki/Special:search?search=${encodeURIComponent(searchTerm)}`);
+    }
+    
     const { filters } = parseSearchQuery(rawQuery);
     const results = search(rawQuery);
 
