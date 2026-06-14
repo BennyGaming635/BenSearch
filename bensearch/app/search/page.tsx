@@ -20,7 +20,17 @@ export default async function Search({
         const searchTerm = rawQuery.slice(3).trim();
         redirect(`https://en.wikipedia.org/wiki/Special:search?search=${encodeURIComponent(searchTerm)}`);
     }
-    
+
+    if (rawQuery.toLowerCase().startsWith("!y ")) {
+        const searchTerm = rawQuery.slice(3).trim();
+        redirect(`https://www.youtube.com/results?search_query=${encodeURIComponent(searchTerm)}`);
+    }
+
+    if (rawQuery.toLowerCase().startsWith("!g ")) {
+        const searchTerm = rawQuery.slice(3).trim();
+        redirect(`https://www.github.com/search?q=${encodeURIComponent(searchTerm)}`);
+    }
+
     const { filters } = parseSearchQuery(rawQuery);
     const results = search(rawQuery);
 
