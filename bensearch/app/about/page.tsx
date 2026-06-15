@@ -35,6 +35,20 @@ export default function About() {
             <h2 className="text-2xl font-semibold mt-10 mb-3">
                 Search Features
             </h2>
+            <ul className="list-disc ml-6 space-y-2 text-muted-foreground">
+                <li>
+                    <code>filter:programming python</code> - Search within a category.
+                </li>
+                <li>
+                    <code>!w cats</code> - Search within Wikipedia.
+                </li>
+                <li>
+                    <code>!y minecraft speedruns</code> - Search within YouTube.
+                </li>
+                <li>
+                    <code>!g bensearch</code> - Search within GitHub.
+                </li>
+            </ul>
         </main>
     )
 }
