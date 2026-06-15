@@ -1,5 +1,4 @@
 import Logo from "@/components/Logo";
-import Link from "next/link";
 
 export default function About() {
     return (
