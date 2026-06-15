@@ -14,6 +14,7 @@ SEEDS = [
 ]
 
 MAX_PAGES = 100
+REMOTE_JSON = "https://raw.githubusercontent.com/BennyGaming635/BenSearch/bensearch/data/sites.json"
 
 visited = set()
 results = []
@@ -68,6 +69,9 @@ def get_links(url, soup):
         links.append(clean_url)
 
     return links
+
+def load_exisiting_sites():
+    if no
 
 def crawl():
     queue = list(SEEDS)
