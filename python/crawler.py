@@ -92,6 +92,9 @@ def load_exisiting_sites():
 
 def crawl():
     queue = list(SEEDS)
+    existing_sites, existing_urls = load_exisiting_sites()
+    results = list(existing_sites)
+    visited.update(existing_urls)
 
     while queue and len(results) < MAX_PAGES:
         url = queue.pop(0)
