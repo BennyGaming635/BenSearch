@@ -4,6 +4,7 @@ from urllib.parse import urljoin, urlparse
 import time
 import json
 import random
+from pathlib import Path
 
 SEEDS = [
     "https://www.hackclub.com/",
@@ -14,13 +15,42 @@ SEEDS = [
 ]
 
 MAX_PAGES = 100
-REMOTE_JSON = "https://raw.githubusercontent.com/BennyGaming635/BenSearch/bensearch/data/sites.json"
+REMOTE_JSON = "https://github.com/BennyGaming635/BenSearch/blob/main/bensearch/data/sites.json"
+OUTPUT_JSON = Path(__file__).with_name("sites.json")
 
 visited = set()
 results = []
 
 def clean_text(text):
     return ' '.join(text.split())
+
+def resolve_raw_github_url(url):
+    parsed = urlparse(url)
+
+    if parsed.netloc == "github.com":
+        parts = parsed.path.strip("/").split("/")
+
+        if len(parts) >= 5 and parts[2] == "blob":
+            owner, repo, _, branch, *path_parts = parts
+            raw_path = "/".join(path_parts)
+            return f"https://raw.githubusercontent.com/{owner}/{repo}/{branch}/{raw_path}"
+
+    return url
+
+def normalize_url(url):
+    parsed = urlparse(url)
+    path = parsed.path or "/"
+
+    if path != "/":
+        path = path.rstrip("/") or "/"
+
+    return parsed._replace(fragment="", path=path).geturl()
+
+def site_url(site):
+    if not isinstance(site, dict):
+        return ""
+
+    return normalize_url(site.get("url", ""))
 
 def extract_page(url):
     try:
@@ -72,13 +102,13 @@ def get_links(url, soup):
 
 def load_exisiting_sites():
     try:
-        r = requests.get(REMOTE_JSON, timeout=10)
+        r = requests.get(resolve_raw_github_url(REMOTE_JSON), timeout=10)
         r.raise_for_status()
 
         existing = r.json()
 
         urls = {
-            site.get("url", "").rstrip("/")
+            site_url(site)
             for site in existing
             if isinstance(site, dict)
         }
@@ -94,15 +124,17 @@ def crawl():
     queue = list(SEEDS)
     existing_sites, existing_urls = load_exisiting_sites()
     results = list(existing_sites)
+    result_urls = set(existing_urls)
     visited.update(existing_urls)
 
     while queue and len(results) < MAX_PAGES:
         url = queue.pop(0)
+        normalized_url = normalize_url(url)
 
-        if url in visited:
+        if normalized_url in visited or normalized_url in result_urls:
             continue
 
-        visited.add(url)
+        visited.add(normalized_url)
 
         try:
             r = requests.get(url, timeout=5, headers={
@@ -115,24 +147,33 @@ def crawl():
             soup = BeautifulSoup(r.text, "lxml")
 
             page = extract_page(url)
-            if page:
+            page_url = normalize_url(page["url"]) if page else ""
+
+            if page and page_url not in result_urls:
                 results.append(page)
+                result_urls.add(page_url)
                 print(f"Added: {url} ({len(results)})")
 
             links = get_links(url, soup)
             random.shuffle(links)
 
-            queue.extend(links[:10])  # limit expansion
+            for link in links[:10]:
+                normalized_link = normalize_url(link)
+
+                if normalized_link in visited or normalized_link in result_urls:
+                    continue
+
+                queue.append(link)
 
             time.sleep(0.5)
 
         except:
             continue
 
-    with open("site.json", "w", encoding="utf-8") as f:
+    with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
         json.dump(results, f, indent=2, ensure_ascii=False)
 
-    print(f"\nDone. Saved {len(results)} sites to site.json")
+    print(f"\nDone. Saved {len(results)} sites to {OUTPUT_JSON.name}")
 
 if __name__ == "__main__":
     crawl()
