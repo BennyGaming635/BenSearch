@@ -19,6 +19,13 @@ export default function Footer() {
                     >
                         <Mail className="w-5 h-5 hover-opacity-70 transition" />
                     </Link>
+                    <Link
+                        href="/about"
+                        target="_blank"
+                        aria-label="About BenSearch"
+                    >
+                        <Info className="w-5 h-5 hover-opacity-70 transition" />
+                    </Link>
                 </div>
                 <p className="text-sm text-muted-foreground">
                     Created by the team behind <a href="https://bgbs.au" className="underline">NoBS</a>.
