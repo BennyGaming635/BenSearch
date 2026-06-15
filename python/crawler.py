@@ -80,7 +80,7 @@ def extract_page(url):
 
         return {
             "title": title,
-            "url": url,
+            "url": r.url,
             "description": description
         }
 
@@ -127,15 +127,17 @@ def load_exisiting_sites():
         return [], set()
 
 def crawl():
-    queue = list(SEEDS)
     existing_sites, existing_urls = load_exisiting_sites()
     results = list(existing_sites)
     result_urls = set(existing_urls)
+    queue = list(SEEDS) + [site.get("url", "") for site in existing_sites if isinstance(site, dict)]
+    queued_urls = {normalize_url(url) for url in queue if url}
     added_pages = 0
 
     while queue and added_pages < MAX_NEW_PAGES:
         url = queue.pop(0)
         normalized_url = normalize_url(url)
+        queued_urls.discard(normalized_url)
 
         if normalized_url in visited:
             continue
@@ -167,10 +169,11 @@ def crawl():
             for link in links[:10]:
                 normalized_link = normalize_url(link)
 
-                if normalized_link in visited:
+                if normalized_link in visited or normalized_link in queued_urls:
                     continue
 
                 queue.append(link)
+                queued_urls.add(normalized_link)
 
             time.sleep(0.5)
 
