@@ -53,6 +53,17 @@ export default function About() {
             <h2 className="text-2xl font-semibold mt-10 mb-3">
                 Our goal
             </h2>
+            <p className="text-muted-foreground">
+                The goal of BenSearch is to create a way to provide simple,
+                fast, and quality search results about trusted topics, while
+                staying in an straightforward and ad-free format.
+                
+                <br></br>
+                <br></br>
+
+                <b>We want to create a search engine that prioritizes user experience
+                and trust. Not profits.</b>
+            </p>
         </main>
     )
 }
