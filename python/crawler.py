@@ -178,7 +178,8 @@ def crawl():
 
             time.sleep(0.5)
 
-        except:
+        except Exception as eQ:
+            print(f"Error occurred while crawling {url}: {eQ}")
             continue
 
     with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
