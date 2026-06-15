@@ -19,6 +19,10 @@ export default function About() {
                 trusted, without the clutter, tracking and endless sponsored
                 results found on many <i>traditional</i> search engines.
             </p>
+
+            <h2 className="text-2xl font-semibold mt-10 mb-3">
+                How does it work?
+            </h2>
         </main>
     )
 }
