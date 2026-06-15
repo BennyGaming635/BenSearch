@@ -34,7 +34,7 @@ export default async function Search({
 
     const { filters } = parseSearchQuery(rawQuery);
     const results = search(rawQuery);
-
+    
     return (
         <main className="min-h-screen max-w-5xl mx-auto p-6">
             <div className="mb-6">
