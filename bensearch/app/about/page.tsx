@@ -23,6 +23,14 @@ export default function About() {
             <h2 className="text-2xl font-semibold mt-10 mb-3">
                 How does it work?
             </h2>
+            <p className="text-muted-foreground">
+                BenSearch uses a curated index of websites. With results
+                collected and stored in our master-index, then searched
+                directly when <b>you</b> perform a search. This means
+                that BenSearch is able to provide a fast and seemless
+                search experience without the need for tracking, ads,
+                or sponsored results.
+            </p>
         </main>
     )
 }
