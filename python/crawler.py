@@ -105,10 +105,10 @@ def crawl():
         except:
             continue
 
-    with open("sites.json", "w", encoding="utf-8") as f:
+    with open("site.json", "w", encoding="utf-8") as f:
         json.dump(results, f, indent=2, ensure_ascii=False)
 
-    print(f"\nDone. Saved {len(results)} sites to sites.json")
+    print(f"\nDone. Saved {len(results)} sites to site.json")
 
 if __name__ == "__main__":
     crawl()
