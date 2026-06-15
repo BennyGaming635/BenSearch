@@ -14,7 +14,7 @@ SEEDS = [
     "https://www.reddit.com/"
 ]
 
-MAX_PAGES = 100
+MAX_NEW_PAGES = 100
 REMOTE_JSON = "https://github.com/BennyGaming635/BenSearch/blob/main/bensearch/data/sites.json"
 OUTPUT_JSON = Path(__file__).with_name("sites.json")
 
@@ -125,13 +125,13 @@ def crawl():
     existing_sites, existing_urls = load_exisiting_sites()
     results = list(existing_sites)
     result_urls = set(existing_urls)
-    visited.update(existing_urls)
+    added_pages = 0
 
-    while queue and len(results) < MAX_PAGES:
+    while queue and added_pages < MAX_NEW_PAGES:
         url = queue.pop(0)
         normalized_url = normalize_url(url)
 
-        if normalized_url in visited or normalized_url in result_urls:
+        if normalized_url in visited:
             continue
 
         visited.add(normalized_url)
@@ -152,6 +152,7 @@ def crawl():
             if page and page_url not in result_urls:
                 results.append(page)
                 result_urls.add(page_url)
+                added_pages += 1
                 print(f"Added: {url} ({len(results)})")
 
             links = get_links(url, soup)
@@ -160,7 +161,7 @@ def crawl():
             for link in links[:10]:
                 normalized_link = normalize_url(link)
 
-                if normalized_link in visited or normalized_link in result_urls:
+                if normalized_link in visited:
                     continue
 
                 queue.append(link)
