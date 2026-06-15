@@ -7,11 +7,17 @@ import random
 from pathlib import Path
 
 SEEDS = [
-    "https://www.hackclub.com/",
-    "https://www.python.org/",
-    "https://www.wikipedia.org/",
+    "https://www.slack.com/",
+    "https://www.stackoverflow.com/",
     "https://www.github.com/",
-    "https://www.reddit.com/"
+    "https://www.reddit.com/",
+    "https://www.hackclub.com/",
+    "https://www.wikipedia.org/",
+    "https://www.medium.com/",
+    "https://www.twitter.com/",
+    "https://www.facebook.com/",
+    "https://www.linkedin.com/",
+    "https://www.youtube.com/"
 ]
 
 MAX_NEW_PAGES = 100
