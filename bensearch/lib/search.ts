@@ -1,5 +1,16 @@
 import sites from "@/data/sites.json";
 
+export function normalizeUrl(url: string) {
+    try {
+        const parsed = new URL(url);
+        const path = parsed.pathname === "/" ? "/" : parsed.pathname.replace(/\/+$/, "");
+
+        return `${parsed.protocol}//${parsed.host}${path}${parsed.search}`.toLowerCase();
+    } catch {
+        return url.toLowerCase();
+    }
+}
+
 export function parseSearchQuery(rawQuery: string) {
     const filterMatches = rawQuery.match(/filter:[^\s]+/gi) || [];
 
@@ -23,7 +34,7 @@ export function search(query: string) {
             parsedQuery === "" ||
             site.title.toLowerCase().includes(parsedQuery) ||
             site.description.toLowerCase().includes(parsedQuery) ||
-            site.url.toLowerCase().includes(parsedQuery)
+            normalizeUrl(site.url).includes(parsedQuery)
         ) &&
         (
             filters.length === 0 ||
