@@ -84,7 +84,8 @@ def extract_page(url):
             "description": description
         }
 
-    except:
+    except Exception as e:
+        print(f"Error occurred while extracting page {url}: {e}")
         return None
     
 def get_links(url, soup):
