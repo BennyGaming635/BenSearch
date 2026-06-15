@@ -1,6 +1,7 @@
 import Logo from "@/components/Logo";
 import SearchBar from "@/components/SearchBar";
 import SearchResult from "@/components/SearchResult";
+import NoResults from "@/components/NoResults";
 import { parseSearchQuery, search } from "@/lib/search";
 import { redirect } from "next/navigation";
 
