@@ -49,6 +49,10 @@ export default function About() {
                     <code>!g bensearch</code> - Search within GitHub.
                 </li>
             </ul>
+
+            <h2 className="text-2xl font-semibold mt-10 mb-3">
+                Our goal
+            </h2>
         </main>
     )
 }
