@@ -7,7 +7,10 @@ export default function About() {
             <div className="mb-8">
                 <Logo />
             </div>
-            <h1 className="text-4xl font-bold mb-4">
+
+            <hr className="border-border mb-8" />
+
+            <h1 className="text-3xl font-bold mb-4">
                 About BenSearch
             </h1>
         </main>
