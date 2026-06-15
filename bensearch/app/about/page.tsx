@@ -31,6 +31,10 @@ export default function About() {
                 search experience without the need for tracking, ads,
                 or sponsored results.
             </p>
+
+            <h2 className="text-2xl font-semibold mt-10 mb-3">
+                Search Features
+            </h2>
         </main>
     )
 }
