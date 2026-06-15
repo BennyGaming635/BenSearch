@@ -71,7 +71,24 @@ def get_links(url, soup):
     return links
 
 def load_exisiting_sites():
-    if no
+    try:
+        r = requests.get(REMOTE_JSON, timeout=10)
+        r.raise_for_status()
+
+        existing = r.json()
+
+        urls = {
+            site.get("url", "").rstrip("/")
+            for site in existing
+            if isinstance(site, dict)
+        }
+
+        print(f"Loaded {len(existing)} existing sites")
+        return existing, urls
+    
+    except Exception as e:
+        print(f"Failed to load existing sites: {e}")
+        return [], set()
 
 def crawl():
     queue = list(SEEDS)
