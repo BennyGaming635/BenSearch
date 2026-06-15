@@ -766,5 +766,425 @@
     "title": "GitHub Features · GitHub",
     "url": "https://github.com/features",
     "description": "GitHub is where people build software. More than 150 million people use GitHub to discover, fork, and contribute to over 420 million projects."
+  },
+  {
+    "title": "Newest Questions - Stack Overflow",
+    "url": "https://stackoverflow.com/questions",
+    "description": "Newest Questions - Stack Overflow Skip to main content About Products For Teams Stack Internal Implement a knowledge platform layer to power your enterprise and"
+  },
+  {
+    "title": "Medium: Read and write stories.",
+    "url": "https://medium.com/",
+    "description": "On Medium, anyone can share insightful perspectives, useful knowledge, and life wisdom with the world."
+  },
+  {
+    "title": "Facebook",
+    "url": "https://www.facebook.com/",
+    "description": "Facebook Explore the things you love.Log in to FacebookEmail address or mobile numberPasswordLog inForgotten password?Create new account English (UK)中文(简体)한국어日本"
+  },
+  {
+    "title": "LinkedIn: Log In or Sign Up",
+    "url": "https://www.linkedin.com/",
+    "description": "1 billion members | Manage your professional identity. Build and engage with your professional network. Access knowledge, insights and opportunities."
+  },
+  {
+    "title": "Learn JavaScript Online - Courses for Beginners - javascript.com",
+    "url": "https://www.javascript.com",
+    "description": "JavaScript.com is a resource for the JavaScript community. You will find resources and examples for JavaScript beginners as well as support for JavaScript experts. Learn JavaScript or free with our easy to use input output machine."
+  },
+  {
+    "title": "The Go Programming Language",
+    "url": "https://go.dev/",
+    "description": "Go is an open source programming language that makes it simple to build secure, scalable systems."
+  },
+  {
+    "title": "Java | Oracle",
+    "url": "https://www.java.com/en/",
+    "description": "Java | Oracle Developer Resources Enterprise Resources Java for Desktop Apps Java Oracle Java is the #1 programming language and development platform. It reduce"
+  },
+  {
+    "title": "Ruby Programming Language",
+    "url": "https://www.ruby-lang.org/",
+    "description": "Ruby Programming Language Click here to be redirected."
+  },
+  {
+    "title": "PHP",
+    "url": "https://www.php.net/",
+    "description": "PHP Downloads Documentation Get Involved Help Search docs Getting Started Introduction A simple tutorial Language Reference Basic syntax Types Variables Constan"
+  },
+  {
+    "title": ".NET - Build modern apps and powerful cloud services",
+    "url": "https://dotnet.microsoft.com/en-us/",
+    "description": ".NET is a developer platform with tools and libraries for building any type of app, including web, mobile, desktop, games, IoT, cloud, and microservices."
+  },
+  {
+    "title": "ABC News - Breaking News, Latest News and Videos",
+    "url": "https://abcnews.com/",
+    "description": "Your trusted source for breaking news, analysis, exclusive interviews, headlines, and videos at ABCNews.com"
+  },
+  {
+    "title": "ABC News & Headlines – Australian Broadcasting Corporation",
+    "url": "https://www.abc.net.au/",
+    "description": "Follow the latest headlines from ABC News, Australia's most trusted media source, with live events, audio and on-demand video from the national broadcaster."
+  },
+  {
+    "title": "BBC News - Breaking news, video and the latest top stories from the U.S. and around the world",
+    "url": "https://www.bbc.com/news",
+    "description": "Visit BBC News for the latest news, breaking news, video, audio and analysis. BBC News provides trusted World, U.S. and U.K. news as well as local and regional perspectives. Also entertainment, climate, business, science, technology and health news."
+  },
+  {
+    "title": "Breaking News, Latest News and Videos | CNN",
+    "url": "https://www.cnn.com/",
+    "description": "View the latest news and breaking news today for U.S., world, weather, entertainment, politics and health at CNN.com."
+  },
+  {
+    "title": "The New York Times - Breaking News, US News, World News and Videos",
+    "url": "https://www.nytimes.com/",
+    "description": "Live news, investigations, opinion, photos and video by the journalists of The New York Times from more than 150 countries around the world. Subscribe for coverage of U.S. and international news, politics, business, technology, science, health, arts, sports and more."
+  },
+  {
+    "title": "Video Game News, Reviews, and Walkthroughs - IGN",
+    "url": "https://www.ign.com/au",
+    "description": "IGN is your #1 destination for all video game news, expert reviews, and walkthroughs."
+  },
+  {
+    "title": "Programs — Hack Club",
+    "url": "https://hackclub.com/programs",
+    "description": "Explore Hack Club programs — coding projects, events, and opportunities for teen makers."
+  },
+  {
+    "title": "Privacy Notice & Terms — Hack Club",
+    "url": "https://hackclub.com/privacy-and-terms",
+    "description": "Hack Club's Privacy Notice and Standard Terms and Conditions."
+  },
+  {
+    "title": "Philanthropy — Hack Club",
+    "url": "https://hackclub.com/philanthropy",
+    "description": "Support Hack Club's mission to build a generation of teen makers. Learn how to donate and get involved."
+  },
+  {
+    "title": "Documentation - Claude API Docs",
+    "url": "https://platform.claude.com/docs/en/home",
+    "description": "Claude API Documentation"
+  },
+  {
+    "title": "Wikipedia",
+    "url": "https://scn.wikipedia.org/wiki/P%C3%A0ggina_principali",
+    "description": "Wikipedia Va ô cuntinutu Menù mastru Menù mastru sposta nella barra laterale ammuccia Navicazzioni Pàggina mastraPurtali dâ cumunitàCanciati anturaPàggina a muz"
+  },
+  {
+    "title": "Wikipedia",
+    "url": "https://qu.wikipedia.org/wiki/Qhapaq_p%27anqa",
+    "description": "Wikipedia Ir al contenido Menú principal Menú principal mover a la barra lateral ocultar Wamp'una Qhapaq p'anqaAyllupaq p'anqaÑaqha hukchasqaMayninpi p'anqaYana"
+  },
+  {
+    "title": "Wikipedia",
+    "url": "https://lb.wikipedia.org/wiki/Haapts%C3%A4it",
+    "description": "Wikipedia Op den Inhalt sprangen Haaptmenü Haaptmenü an déi säitlech Läischt réckelen verstoppen Navigatioun HaaptsäitPortalerAlles vun A-ZZoufälleg SäitSpezial"
+  },
+  {
+    "title": "GitHub Actions · GitHub",
+    "url": "https://github.com/features/actions",
+    "description": "GitHub is where people build software. More than 150 million people use GitHub to discover, fork, and contribute to over 420 million projects."
+  },
+  {
+    "title": "Sign in for Software Support and Product Help - GitHub Support",
+    "url": "https://support.github.com/request/landing",
+    "description": "Access your support options and sign in to your account for GitHub software support and product assistance. Get the help you need from our dedicated support team."
+  },
+  {
+    "title": "GitHub Premium Support · GitHub",
+    "url": "https://github.com/enterprise/premium-support",
+    "description": "Get expert help for Enterprise Cloud and Enterprise—any hour your team needs it."
+  },
+  {
+    "title": "Expert Services | GitHub · GitHub",
+    "url": "https://github.com/services/",
+    "description": "From idea to implementation, our experts are ready to help your team get wherever you want to go. Start a conversation with us about how we can bring your goals to life."
+  },
+  {
+    "title": "Global Diversity, Inclusion, and Belonging at GitHub · GitHub",
+    "url": "https://github.com/about/diversity",
+    "description": "GitHub is where people build software. More than 150 million people use GitHub to discover, fork, and contribute to over 420 million projects."
+  },
+  {
+    "title": "Privacy Policy – Privacy & Terms – Google",
+    "url": "https://policies.google.com/privacy?hl=en-GB",
+    "description": "Privacy Policy – Privacy & Terms – GoogleSkip to main contentPrivacy & TermsPrivacy & TermsSign inOverviewPrivacy PolicyTerms of ServiceTechnologiesFAQPrivacy &"
+  },
+  {
+    "title": "Official YouTube Blog for Latest YouTube News & Insights",
+    "url": "https://blog.youtube/",
+    "description": "Explore our official blog for the latest news about YouTube, creator and artist profiles, culture and trends analyses, and behind-the-scenes insights."
+  },
+  {
+    "title": "Copyright tools: Rightsholders and creators â how YouTube works",
+    "url": "https://www.youtube.com/howyoutubeworks/copyright/",
+    "description": "YouTube thrives on originality, and in doing so, it protects its creators through copyright. Learn how copyright helps to identify unoriginal content."
+  },
+  {
+    "title": "YouTube policies crafted for openness â how YouTube works",
+    "url": "https://www.youtube.com/howyoutubeworks/our-policies/",
+    "description": "YouTube's policies ensure that our platform allows viewers, creators and advertisers to thrive. Review our guidelines on how we maintain a balance."
+  },
+  {
+    "title": "Hack Club Clubs — Start a Club",
+    "url": "https://hackclub.com/clubs",
+    "description": "Start a student-led coding club with Hack Club. Get workshops, mentorship, events, tools, and a global community."
+  },
+  {
+    "title": "Fiscal Sponsorship — Hack Club",
+    "url": "https://hackclub.com/fiscal-sponsorship",
+    "description": "Start your nonprofit with HCB: a 501(c)(3) legal entity, bank account, automatic taxes and accounting, and best-in-class software."
+  },
+  {
+    "title": "Jobs — Hack Club",
+    "url": "https://hackclub.com/jobs",
+    "description": "Join the Hack Club team. View open positions and apply to work with us."
+  },
+  {
+    "title": "Code of Conduct — Hack Club",
+    "url": "https://hackclub.com/conduct",
+    "description": "Hack Club's Code of Conduct for our community spaces, events, and projects."
+  },
+  {
+    "title": "Brand — Hack Club",
+    "url": "https://hackclub.com/brand",
+    "description": "Hack Club brand guidelines, logos, colors, and typography for official use."
+  },
+  {
+    "title": "Safeguarding Policy — Hack Club",
+    "url": "https://hackclub.com/safeguarding",
+    "description": "Hack Club's Events Safeguarding Policy for in-person events."
+  },
+  {
+    "title": "community · Discussions · GitHub",
+    "url": "https://github.com/orgs/community/discussions/",
+    "description": " Ask questions, get answers, share expertise. "
+  },
+  {
+    "title": "GitHub Docs",
+    "url": "https://docs.github.com/en",
+    "description": "Get started, troubleshoot, and make the most of GitHub. Documentation for new users, developers, administrators, and all of GitHub's products."
+  },
+  {
+    "title": "Projects · starbird · GitHub",
+    "url": "https://github.com/deltea/starbird/projects?query=is%3Aopen",
+    "description": "GitHub is where people build software. More than 150 million people use GitHub to discover, fork, and contribute to over 420 million projects."
+  },
+  {
+    "title": "Imprint — Hack Club",
+    "url": "https://hackclub.com/imprint",
+    "description": "Legal notice and contact details for Hack Club (The Hack Foundation)."
+  },
+  {
+    "title": "Philosophy — Hack Club",
+    "url": "https://hackclub.com/philosophy",
+    "description": "Hack Club's philosophy on coding, learning, and building a community of teenage makers."
+  },
+  {
+    "title": "Slack vs Microsoft Teams: Compare features, pricing & security  | Slack",
+    "url": "https://slack.com/intl/en-au/compare/slack-vs-teams",
+    "description": "Looking for a Teams alternative? Slack delivers a smoother experience with native AI, easy automation, a clean and delightful UI, third-party integrations and an ease of use that keeps teams focused."
+  },
+  {
+    "title": "What’s new | Slack",
+    "url": "https://slack.com/intl/en-au/whats-new",
+    "description": "Stay up to date with the latest Slack features and improvements."
+  },
+  {
+    "title": "Contact sales | Slack",
+    "url": "https://slack.com/intl/en-au/contact-sales",
+    "description": "Our team are happy to answer your sales questions. Fill in the form and we’ll be in touch as soon as possible."
+  },
+  {
+    "title": "Log in | Slack",
+    "url": "https://slack.com/intl/en-au/get-started?entry_point=page_home",
+    "description": "Log in to Slack, or try for free with your teammates. All it takes is an email address to get started."
+  },
+  {
+    "title": "Slack for project management: Tracker and PM tools | Slack",
+    "url": "https://slack.com/intl/en-au/solutions/project-management",
+    "description": "Streamline and manage work with Slack’s project management software. Our PM tool and app helps your team plan, track and collaborate in one platform."
+  },
+  {
+    "title": "Slack for Manufacturing, Automotive, & Energy | Slack",
+    "url": "https://slack.com/intl/en-au/solutions/manufacturing",
+    "description": "Boost efficiency in manufacturing, automotive and energy industries with Slack’s secure collaboration tools. Connect teams, manage projects and drive innovation."
+  },
+  {
+    "title": "Slack Help Centre | Slack",
+    "url": "https://slack.com/intl/en-au/help",
+    "description": "We’re here to help you learn about Slack. Browse our collection of helpful articles and videos and find answers to your questions quickly."
+  },
+  {
+    "title": "Rethinking email and chat: Why Slack is the future of work in the AI era | Slack",
+    "url": "https://slack.com/intl/en-au/resources/why-use-slack/rethinking-email-ai-conversations-work",
+    "description": "In the AI era, email and chat fall short. Learn why Slack is redefining how work happens with shared context, automation and intelligent collaboration."
+  },
+  {
+    "title": "User Rok Ružič - Stack Overflow",
+    "url": "https://stackoverflow.com/users/32839175/rok-ru%C5%BEi%C4%8D",
+    "description": "User Rok Ružič - Stack Overflow Skip to main content About Products For Teams Stack Internal Implement a knowledge platform layer to power your enterprise and A"
+  },
+  {
+    "title": "electromagnetism - Deriving conservation of electric current/charge from gauge symmetry in QED - Physics Stack Exchange",
+    "url": "https://physics.stackexchange.com/questions/873315/deriving-conservation-of-electric-current-charge-from-gauge-symmetry-in-qed",
+    "description": "electromagnetism - Deriving conservation of electric current/charge from gauge symmetry in QED - Physics Stack Exchange Skip to main content Stack Exchange Netw"
+  },
+  {
+    "title": "User Wendy - Stack Overflow",
+    "url": "https://stackoverflow.com/users/32838360/wendy",
+    "description": "User Wendy - Stack Overflow Skip to main content About Products For Teams Stack Internal Implement a knowledge platform layer to power your enterprise and AI to"
+  },
+  {
+    "title": "Cookie Policy - Stack Overflow",
+    "url": "https://policies.stackoverflow.co/stack-overflow/cookie-policy",
+    "description": "Founded in 2008, Stack Overflow’s public platform is used by nearly everyone who codes to learn, share their knowledge, collaborate, and build their careers."
+  },
+  {
+    "title": "User Earthling - Stack Overflow",
+    "url": "https://stackoverflow.com/users/3098474/earthling",
+    "description": "User Earthling - Stack Overflow Skip to main content About Products For Teams Stack Internal Implement a knowledge platform layer to power your enterprise and A"
+  },
+  {
+    "title": "android - Health Connect rate-limit RemoteException on API 33 and below, even on the first call - Stack Overflow",
+    "url": "https://stackoverflow.com/questions/79958910/health-connect-rate-limit-remoteexception-on-api-33-and-below-even-on-the-first",
+    "description": "android - Health Connect rate-limit RemoteException on API 33 and below, even on the first call - Stack Overflow Skip to main content About Products For Teams S"
+  },
+  {
+    "title": "User ocarrey - Stack Overflow",
+    "url": "https://stackoverflow.com/users/13480459/ocarrey",
+    "description": "User ocarrey - Stack Overflow Skip to main content About Products For Teams Stack Internal Implement a knowledge platform layer to power your enterprise and AI "
+  },
+  {
+    "title": "Stack Exchange",
+    "url": "https://api.stackexchange.com/",
+    "description": "Stack Exchange Stack Exchange API Currently v2.3 Documentation All Documentation Write Access Authentication Throttles Register For An App Key View Your Apps Li"
+  },
+  {
+    "title": "Newest 'r' Questions - Stack Overflow",
+    "url": "https://stackoverflow.com/questions/tagged/r",
+    "description": "Newest 'r' Questions - Stack Overflow Skip to main content About Products For Teams Stack Internal Implement a knowledge platform layer to power your enterprise"
+  },
+  {
+    "title": "User Nandan Bhowmick - Stack Overflow",
+    "url": "https://stackoverflow.com/users/21651752/nandan-bhowmick",
+    "description": "User Nandan Bhowmick - Stack Overflow Skip to main content About Products For Teams Stack Internal Implement a knowledge platform layer to power your enterprise"
+  },
+  {
+    "title": "MCP Registry · GitHub",
+    "url": "https://github.com/mcp",
+    "description": "A faster, safer way to build with AI: the GitHub MCP Registry centralizes MCP servers for effortless discovery, integration, and open collaboration."
+  },
+  {
+    "title": "GitHub Code Review · GitHub",
+    "url": "https://github.com/features/code-review",
+    "description": "GitHub is where people build software. More than 150 million people use GitHub to discover, fork, and contribute to over 420 million projects."
+  },
+  {
+    "title": "Ebooks & Whitepapers · GitHub",
+    "url": "https://github.com/resources/whitepapers",
+    "description": "GitHub is where people build software. More than 150 million people use GitHub to discover, fork, and contribute to over 420 million projects."
+  },
+  {
+    "title": "GitHub Codespaces · GitHub",
+    "url": "https://github.com/features/codespaces",
+    "description": "GitHub is where people build software. More than 150 million people use GitHub to discover, fork, and contribute to over 420 million projects."
+  },
+  {
+    "title": "GitHub Trust Center · GitHub",
+    "url": "https://github.com/trust-center",
+    "description": "GitHub is where people build software. More than 150 million people use GitHub to discover, fork, and contribute to over 420 million projects."
+  },
+  {
+    "title": "GitHub - ThatOtherAndrew/Kamikamace: A fast-paced PvP mace-swinging game where your goal is to die first! · GitHub",
+    "url": "https://github.com/ThatOtherAndrew/Kamikamace",
+    "description": "A fast-paced PvP mace-swinging game where your goal is to die first! - ThatOtherAndrew/Kamikamace"
+  },
+  {
+    "title": "Hack Club - YouTube",
+    "url": "https://www.youtube.com/@HackClubHQ",
+    "description": "Welcome to a worldwide community of high school hackers. We’re artists, writers, engineers, tinkerers, campers, filmmakers, volunteers. We make things. We he..."
+  },
+  {
+    "title": "Wikipedia",
+    "url": "https://zu.wikipedia.org/wiki/Ikhasi_Elikhulu",
+    "description": "Wikipedia Jump to content Izinketho eziyinhloko Izinketho eziyinhloko move to sidebar fihla ukuzulazula Ikhasi ElikhuluIngosi yomphakathiIzinguquko zakamuvaIkha"
+  },
+  {
+    "title": "Wikipedia",
+    "url": "https://wo.wikipedia.org/wiki/X%C3%ABt_wu_nj%C3%ABkk",
+    "description": "Wikipedia Aller au contenu Menu principal Menu principal déplacer vers la barre latérale masquer Joowiin Xët wu njëkkAskanCoppite yu mujjAw xët ci mbetteelNdimb"
+  },
+  {
+    "title": "Wikipedia",
+    "url": "https://pdc.wikipedia.org/wiki/Haaptblatt",
+    "description": "Wikipedia Zum Inhalt springen Hauptmenü Hauptmenü In die Seitenleiste verschieben Verbergen Faahre-Gnepp HaaptblattGmeeschafts-PortalArdickele nooch AbdeelingWa"
+  },
+  {
+    "title": "Wikipedia, the free encyclopedia",
+    "url": "https://en.wikipedia.org/wiki/Main_Page",
+    "description": "Wikipedia, the free encyclopedia Jump to content Main menu Main menu move to sidebar hide Navigation Main pageContentsCurrent eventsRandom articleAbout Wikipedi"
+  },
+  {
+    "title": "Wikipedia",
+    "url": "https://nds-nl.wikipedia.org/wiki/V%C3%B6%C3%A4rblad",
+    "description": "Wikipedia Naar inhoud springen Höyvdmenü Höyvdmenü nå sydbalke verplaatsen verbargen Navigaty VöärbladOaver WikipediaLätste wysigingenNye artikelsTovallige syde"
+  },
+  {
+    "title": "List of Wikipedias - Meta-Wiki",
+    "url": "https://meta.wikimedia.org/wiki/Special:MyLanguage/List_of_Wikipedias",
+    "description": "List of Wikipedias - Meta-Wiki Jump to content Main menu Main menu move to sidebar hide Navigation Main pageWikimedia NewsTranslationsRecent changesSpecial page"
+  },
+  {
+    "title": "Wikipidiya",
+    "url": "https://mos.wikipedia.org/wiki/Soraogo",
+    "description": "Wikipidiya Yãk-y n kẽng y sẽn tarã nengẽ Manusẽ wã Manusẽ wã kẽng-y yĩngã lilli Bãngre-gomde SoraogoKomindi zak kʋlengaPaalem tedgreYaare nengaSõngeNeng bãna Ba"
+  },
+  {
+    "title": "Medium Rules | by Medium | Medium Policy",
+    "url": "https://policy.medium.com/medium-rules-30e5502c4eb4",
+    "description": "Medium Rules Medium is an open platform that exists to share ideas and perspectives from the world’s most insightful writers, thinkers, and storytellers. We welcome thoughtful and civil discussion …"
+  },
+  {
+    "title": "Medium Help Center",
+    "url": "https://help.medium.com/hc/en-us",
+    "description": "Medium Help Center Skip to main content Help Center Back to medium.com Submit a request How can we help? Popular: Getting started Learn more about Medium and se"
+  },
+  {
+    "title": "Medium Privacy Policy | by Medium | Medium Policy",
+    "url": "https://policy.medium.com/medium-privacy-policy-f03bf92035c9",
+    "description": "Medium Privacy Policy Effective date: March 24, 2022 You can see our previous Privacy Policy here. This Privacy Policy explains how A Medium Corporation (“Medium,” “we,” or “us”) …"
+  },
+  {
+    "title": "About Medium",
+    "url": "https://medium.com/about?autoplay=1",
+    "description": "On Medium, anyone can share insightful perspectives, useful knowledge, and life wisdom with the world."
+  },
+  {
+    "title": "Medium Membership",
+    "url": "https://medium.com/membership",
+    "description": "On Medium, anyone can share insightful perspectives, useful knowledge, and life wisdom with the world."
+  },
+  {
+    "title": "Medium Terms of Service | by Medium | Medium Policy",
+    "url": "https://policy.medium.com/medium-terms-of-service-9db0094a1e0f",
+    "description": "Medium Terms of Service Effective: September 1, 2020 You can see our previous Terms here. Thanks for using Medium. Our mission is to deepen people’s understanding of the world and spread ideas that …"
+  },
+  {
+    "title": "Careers at Medium | by Jobs @ Medium | Jobs at Medium | Medium",
+    "url": "https://medium.com/jobs-at-medium/work-at-medium-959d1a85284e",
+    "description": "At Medium, we believe in the power of words — and we’re on a mission to bring the world’s expertise to life through memorable storytelling."
+  },
+  {
+    "title": "X Business",
+    "url": "https://business.x.com/en",
+    "description": "Grow your business on X with powerful advertising tools, analytics, and monetization options. Connect with a global audience and achieve your goals."
+  },
+  {
+    "title": "Careers: Build AI That Advances Humanity | xAI",
+    "url": "https://x.ai/careers",
+    "description": "We are a team of AI technologists and business leaders on a mission to build AI systems that can help humanity understand the world better."
   }
 ]
