@@ -50,6 +50,28 @@ export default function Home() {
       >
         ???
       </button>
+      {open && (
+        <div className="fixed inset-0 z-50">
+          <div
+            className="absolute inset-0 bg-black/40"
+            onClick={() => setOpen(false)}
+          />
+          <div className="absolute right-0 top-0 h-full w-72 bg-[#0a0a0a] shadow-xl p-4">
+            <h2 className="text-lg text-[#ededed] font-semibold mb-4 bg-[#0a0a0a]">
+              NoBS Apps
+            </h2>
+            <div className="space-y-2">
+              <Link
+                href="https://bgbs.au"
+                className="block p-2 hover:bg-gray-900 rounded"
+                target="_blank"
+              >
+                NoBS Shortner
+              </Link>
+            </div>
+          </div>
+        </div>
+      )}
     </main>
   );
 }
