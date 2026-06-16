@@ -16,3 +16,6 @@ At the moment, you can use the following parameters/arguments to choose what you
 - `!r funny fails`: This will redirect you to reddit and will automatically search for whatever weird stuff you wanna see.
 
 This service is provided via the bgBS team. You can access other bgBS services via the app drawer.
+
+## Do you want to contribute to our database?
+If someone like you says yes, then before adding **anything** to our database, please read the README in [/data here](/bensearch/data/README.md). Thank you!
