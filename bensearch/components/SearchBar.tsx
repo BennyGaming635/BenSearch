@@ -47,7 +47,7 @@ export default function SearchBar() {
                                 i === active ? "bg-muted" : ""
                             }`}
                         >
-                            {s.title}
+                            {firstFiveWords(s.title)}
                         </div>
                     ))}
                 </div>
