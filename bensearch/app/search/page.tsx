@@ -37,6 +37,11 @@ export default async function Search({
         redirect(`https://www.reddit.com/search/?q=${encodeURIComponent(searchTerm)}`);
     }
 
+    if (rawQuery.toLowerCase().startsWith("!a ")) {
+        const searchTerm = rawQuery.slice(3).trim();
+        redirect(`https://www.archive.org/search.php?query=${encodeURIComponent(searchTerm)}`);
+    }
+
     const { filters } = parseSearchQuery(rawQuery);
     const queryWords = rawQuery
         .toLowerCase()
