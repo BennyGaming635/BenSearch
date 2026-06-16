@@ -6,6 +6,19 @@ import { useRouter } from 'next/navigation';
 
 export default function SearchBar() {
     const [query, setQuery] = useState("");
+    const [active, setActive] = useState(0);
+    const router = useRouter();
+
+    const suggestions = useMemo(() => {
+        if (!query) return [];
+        const q = query.toLowerCase();
+        
+        return sites
+            .filter(site =>
+                site.title.toLowerCase().includes(q)
+            )
+            .slice(0, 5);
+    }, [query]);
 
     return (
         <form action="/search">
