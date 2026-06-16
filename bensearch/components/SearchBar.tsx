@@ -9,6 +9,10 @@ export default function SearchBar() {
     const [active, setActive] = useState(0);
     const router = useRouter();
 
+    function firstFiveWords(text: string) {
+        return text.split(" ").slice(0, 5).join(" ");
+    }
+
     const suggestions = useMemo(() => {
         if (!query) return [];
         const q = query.toLowerCase();
