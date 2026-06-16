@@ -1,6 +1,8 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useMemo, useRef } from 'react';
+import sites from '@/data/sites.json';
+import { useRouter } from 'next/navigation';
 
 export default function SearchBar() {
     const [query, setQuery] = useState("");
