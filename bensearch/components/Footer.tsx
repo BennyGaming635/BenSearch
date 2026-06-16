@@ -28,7 +28,7 @@ export default function Footer() {
                     </Link>
                 </div>
                 <p className="text-sm text-muted-foreground">
-                    Created by the team behind <a href="https://bgbs.au" className="underline">NoBS</a>.
+                    Created by the team behind <a href="https://bgbs.au" className="underline">bgBS</a>.
                 </p>
             </div>
         </footer>
