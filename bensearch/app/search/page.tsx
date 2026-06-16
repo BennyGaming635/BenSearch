@@ -32,6 +32,11 @@ export default async function Search({
         redirect(`https://www.github.com/search?q=${encodeURIComponent(searchTerm)}`);
     }
 
+    if (rawQuery.toLowerCase().startsWith("!r ")) {
+        const searchTerm = rawQuery.slice(3).trim();
+        redirect(`https://www.reddit.com/search/?q=${encodeURIComponent(searchTerm)}`);
+    }
+
     const { filters } = parseSearchQuery(rawQuery);
     const queryWords = rawQuery
         .toLowerCase()
