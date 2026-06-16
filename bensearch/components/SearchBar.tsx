@@ -26,7 +26,10 @@ export default function SearchBar() {
                 type="text"
                 name="q"
                 value={query}
-                onChange={e => setQuery(e.target.value)}
+                onChange={(e) => {
+                    setQuery(e.target.value);
+                    setActive(0);
+                }}
                 placeholder="Search the web..."
                 className="w-full p-4 rounded-full border"
             />
