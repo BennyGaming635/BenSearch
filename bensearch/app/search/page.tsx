@@ -33,7 +33,41 @@ export default async function Search({
     }
 
     const { filters } = parseSearchQuery(rawQuery);
-    const results = search(rawQuery);
+    const queryWords = rawQuery
+        .toLowerCase()
+        .split(/\s+/)
+        .filter(Boolean);
+
+    const results = search(rawQuery)
+        .map((site) => {
+            let score = 0;
+
+            const title = site.title.toLowerCase();
+            const description = site.description.toLowerCase();
+            const url = site.url.toLowerCase();
+
+            if (title === rawQuery.toLowerCase()) score += 100;
+            if (title.startsWith(rawQuery.toLowerCase())) score += 75;
+            queryWords.forEach((word) => {
+                if (title.includes(word)) score += 15;
+                if (description.includes(word)) score += 5;
+                if (url.includes(word)) score += 13;
+
+                if (
+                    site.filters?.some(
+                        (filter) => filter.toLowerCase() === word
+                    )
+                ) {
+                    score += 50;
+                }
+        });
+
+        return {
+            ...site,
+            score,
+        };
+    })
+    .sort((a, b) => b.score - a.score);
     
     return (
         <main className="min-h-screen max-w-5xl mx-auto p-6">
