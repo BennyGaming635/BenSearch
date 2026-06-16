@@ -10,6 +10,7 @@ import Link from "next/link";
 
 export default function Home() {
   const router = useRouter();
+  const [open, setOpen] = useState(false);
   
   const handleSurprise = () => {
     const random =
