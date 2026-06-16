@@ -33,6 +33,21 @@ export default function SearchBar() {
                 placeholder="Search the web..."
                 className="w-full p-4 rounded-full border"
             />
+            {suggestions.length > 0 && (
+                <div className="mt-2 rounded-lg overflow-hidden">
+                    {suggestions.map((s, i) => (
+                        <div
+                            key={s.url}
+                            onClick={() => router.push(`/search?q=${s.title}`)}
+                            className={`p-3 cursor-pointer ${
+                                i === active ? "bg-muted" : ""
+                            }`}
+                        >
+                            {s.title}
+                        </div>
+                    ))}
+                </div>
+            )}
         </form>
     );
 }
