@@ -4,10 +4,12 @@ import Logo from "@/components/Logo";
 import sites from "@/data/sites.json";
 import SearchBar from "@/components/SearchBar";
 import { useRouter } from "next/navigation";
+import { useState } from "react";
+import Link from "next/link";
 
 export default function Home() {
   const router = useRouter();
-
+  
   const handleSurprise = () => {
     const random =
       sites[Math.floor(Math.random() * sites.length)];
