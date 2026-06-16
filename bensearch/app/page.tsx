@@ -21,6 +21,15 @@ export default function Home() {
 
   return (
     <main className="min-h-screen flex flex-col items-center justify-center px-4">
+      <div className="absolute top-4 right-4">
+        <button
+          onClick={() => setOpen(true)}
+          className="p-2 rounded hover:bg-gray-100"
+          aria-label="Open apps"
+        >
+          <Menu className="w-5 h-5 text-gray-700" />
+        </button>
+      </div>
       <Logo />
 
       <p className="text-gray-500 mt-2 mb-8">
