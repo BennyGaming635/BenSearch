@@ -30,6 +30,7 @@ export default function Home() {
 
   return (
     <main className="min-h-screen flex flex-col items-center justify-center px-4">
+      <section className="min-h-screen flex flex-col items-center justify-center px-4">
       <div className="absolute top-4 right-4">
         <button
           onClick={() => setOpen(true)}
@@ -67,6 +68,19 @@ export default function Home() {
       >
         ???
       </button>
+      </section>
+
+      <section className="min-h-screen flex flex-col items-center justify-center px-4 text-center">
+        <h2 className="text-8xl md:text-9xl lg:text-[12rem] font-black leading-none">
+          {sites.length.toLocaleString()}
+        </h2>
+        <p className="text-xl md:text-2xl text-gray-500 mt-6">
+          sites indexed and counting.
+        </p>
+         <p className="text-gray-400 mt-4">
+          BenSearch is built on a community-driven index of websites, with new sites added regularly.
+         </p>
+      </section>
 
       {open && (
         <div className="fixed inset-0 z-50">
