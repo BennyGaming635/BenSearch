@@ -27,6 +27,13 @@ export default function Footer() {
                     >
                         <Info className="w-5 h-5 hover:opacity-70 transition" />
                     </Link>
+                    <Link
+                        href="/privacy"
+                        target="_blank"
+                        aria-label="Privacy Policy"
+                    >
+                        <EyeIcon size={18} className="hover:opacity-70 transition" />
+                    </Link>
                 </div>
                 <p className="text-sm text-muted-foreground">
                     Created by the team behind <a href="https://bgbs.au" className="underline">bgBS</a>.
