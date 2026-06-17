@@ -1,4 +1,10 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Oops, wrong page!
+Unless you are a developer, this is the wrong page.
+If you are wanting to learn more about our page crawler, please [click here](/python/README.md).
+Otherwise, if you are wanting to learn more about the actual project, instead [click here](/README.md).
+
+You should only need to read this page if you are wanting to self-host.
+Thanks!
 
 ## Getting Started
 
