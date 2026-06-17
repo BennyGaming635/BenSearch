@@ -19,14 +19,14 @@ export default function Home() {
     router.push(random.url);
   };
 
-  useEffect(() => {
-  if (historyOpen) {
-    const history = JSON.parse(
-      localStorage.getItem("bensearch-history") || "[]"
-    );
-    setSearchHistory(history);
-  }
-}, [historyOpen]);
+  const handleHistoryOpen = () => {
+  const history = JSON.parse(
+    localStorage.getItem("bensearch-history") || "[]"
+  );
+
+  setSearchHistory(history);
+  setHistoryOpen(true);
+};
 
   return (
     <main className="min-h-screen flex flex-col items-center justify-center px-4">
@@ -39,7 +39,7 @@ export default function Home() {
           <Menu className="w-5 h-5 text-gray-700" />
         </button>
         <button
-          onClick={() => setHistoryOpen(true)}
+          onClick={handleHistoryOpen}
           className="p-2 rounded hover:bg-gray-100"
           aria-label="Open search history"
         >
