@@ -52,15 +52,15 @@ export default function SearchBar() {
                     setQuery(e.target.value);
                     setActive(0);
                 }}
-                placeholder="Search the web..."
-                className="w-full p-4 rounded-full border"
+                placeholder="Press enter to search."
+                className="w-full p-4 rounded-full border text-center"
             />
-            {suggestions.length > 0 && (
-                <div className="mt-2 rounded-lg overflow-hidden">
-                    {suggestions.map((s, i) => (
-                        <div
-                            key={s.url}
-                            onClick={() => {
+                {suggestions.length > 0 && (
+                    <div className="mt-2 rounded-lg overflow-hidden">
+                        {suggestions.map((s, i) => (
+                            <div
+                                key={s.url}
+                                onClick={() => {
                                 saveSearch(s.title);
                                 router.push(
                                     `/search?q=${encodeURIComponent(s.title)}`
