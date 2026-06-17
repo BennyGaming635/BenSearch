@@ -47,6 +47,12 @@ export default function About() {
                 <li>
                     <code>!g bensearch</code> - Search within GitHub.
                 </li>
+                <li>
+                    <code>!r funny cat memes</code> - Search within Reddit.
+                </li>
+                <li>
+                    <code>!a old apple website</code> - Search within Archive.org.
+                </li>
             </ul>
 
             <h2 className="text-2xl font-semibold mt-10 mb-3">

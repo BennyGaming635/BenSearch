@@ -35,9 +35,11 @@ export default function SearchBar() {
         <form
             onSubmit={(e) => {
                 e.preventDefault();
-                if (query.trim()) return;
-                saveSearch(query);
-                router.push(`/search?q=${encodeURIComponent(query)}`
+                const trimmed = query.trim();
+                if (!trimmed) return;
+                saveSearch(trimmed);
+                router.push(
+                `/search?q=${encodeURIComponent(trimmed)}`
                 );
             }}
         >    
@@ -64,7 +66,7 @@ export default function SearchBar() {
                                     `/search?q=${encodeURIComponent(s.title)}`
                                 );
                             }}
-                            
+
                             className={`p-3 cursor-pointer ${
                                 i === active ? "bg-muted" : ""
                             }`}
