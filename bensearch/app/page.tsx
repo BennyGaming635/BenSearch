@@ -5,7 +5,7 @@ import sites from "@/data/sites.json";
 import SearchBar from "@/components/SearchBar";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
-import { Menu, History } from "lucide-react";
+import { Menu, History, Shield } from "lucide-react";
 import Link from "next/link";
 
 export default function Home() {
