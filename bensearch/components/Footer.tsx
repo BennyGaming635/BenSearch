@@ -12,20 +12,20 @@ export default function Footer() {
                         target="_blank"
                         aria-label="GitHub Repository"
                     >
-                        <GitCommitVertical className="w-5 h-5 hover-opacity-70 transition" />
+                        <GitCommitVertical className="w-5 h-5 hover:opacity-70 transition" />
                     </Link>
                     <Link
                         href="mailto:rjhj8647@gmail.com"
                         aria-label="Contact via Email"
                     >
-                        <Mail className="w-5 h-5 hover-opacity-70 transition" />
+                        <Mail className="w-5 h-5 hover:opacity-70 transition" />
                     </Link>
                     <Link
                         href="/about"
                         target="_blank"
                         aria-label="About BenSearch"
                     >
-                        <Info className="w-5 h-5 hover-opacity-70 transition" />
+                        <Info className="w-5 h-5 hover:opacity-70 transition" />
                     </Link>
                 </div>
                 <p className="text-sm text-muted-foreground">
