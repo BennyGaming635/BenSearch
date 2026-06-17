@@ -24,6 +24,13 @@ export default function SearchBar() {
             .slice(0, 5);
     }, [query]);
 
+    const saveSearch = (query: string) => {
+        const existing = JSON.parse(localStorage.getItem("bensearch-history") || "[]");
+        const updated = [query, ...existing.filter((q: string) => q !== query)].slice(0, 20);
+
+        localStorage.setItem("bensearch-history", JSON.stringify(updated));
+    };
+
     return (
         <form action="/search">
             <input
@@ -33,6 +40,8 @@ export default function SearchBar() {
                 onChange={(e) => {
                     setQuery(e.target.value);
                     setActive(0);
+                    saveSearch(query);
+                    router.push(`/search?q=${encodeURIComponent(query)}`);
                 }}
                 placeholder="Search the web..."
                 className="w-full p-4 rounded-full border"
