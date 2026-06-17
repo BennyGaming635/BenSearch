@@ -4,13 +4,14 @@ import Logo from "@/components/Logo";
 import sites from "@/data/sites.json";
 import SearchBar from "@/components/SearchBar";
 import { useRouter } from "next/navigation";
-import { useState } from "react";
-import { Menu } from "lucide-react";
+import { useState, useEffect } from "react";
+import { Menu, History } from "lucide-react";
 import Link from "next/link";
 
 export default function Home() {
   const router = useRouter();
   const [open, setOpen] = useState(false);
+  const [historyOpen, setHistoryOpen] = useState(false);
 
   const handleSurprise = () => {
     const random = sites[Math.floor(Math.random() * sites.length)];
@@ -26,6 +27,13 @@ export default function Home() {
           aria-label="Open apps"
         >
           <Menu className="w-5 h-5 text-gray-700" />
+        </button>
+        <button
+          onClick={() => setHistoryOpen(true)}
+          className="p-2 rounded hover:bg-gray-100"
+          aria-label="Open search history"
+        >
+          <History className="w-5 h-5 text-gray-700" />
         </button>
       </div>
 
