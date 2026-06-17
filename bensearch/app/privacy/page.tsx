@@ -1,37 +1,73 @@
-export default function PrivacyPage() {
-  return (
-    <main className="min-h-screen px-6 py-16 max-w-3xl mx-auto">
-      <h1 className="text-4xl font-bold mb-6">Privacy Policy</h1>
+import Logo from "@/components/Logo";
 
-      <p className="text-gray-300 mb-6">
-        BenSearch is made for privacy.
-      </p>
+export default function Privacy() {
+    return (
+        <main className="max-w-4xl mx-auto px-6 py-12 text-center">
+            <div className="mb-8">
+                <Logo />
+            </div>
 
-      <section className="space-y-4 text-gray-300 leading-relaxed">
-        <p>
-          BenSearch does not track personal user activity, sell data, or serve targeted ads.
-        </p>
+            <hr className="border-border mb-8" />
 
-        <p>
-          Search queries are processed locally within the application and are not stored on external servers.
-        </p>
+            <h1 className="text-3xl font-bold mb-4">
+                Privacy Policy
+            </h1>
 
-        <p>
-          A local search history may be stored in your browser using localStorage for convenience. This data stays on your device and can be cleared at any time.
-        </p>
+            <p className="text-muted-foreground mb-6">
+                Your privacy is a core part of BenSearch. We aim to provide a
+                search experience that does not rely on tracking, profiling,
+                or advertising.
+            </p>
 
-        <p>
-          The search index is generated from publicly available websites and may be updated periodically.
-        </p>
+            <h2 className="text-2xl font-semibold mt-10 mb-3">
+                Data Collection
+            </h2>
+            <p className="text-muted-foreground">
+                BenSearch does not collect personal information or track
+                individual users. We do not create user accounts or store
+                identifiable profiles.
+            </p>
 
-        <p>
-          BenSearch does not require user accounts or personal information to use the service.
-        </p>
+            <h2 className="text-2xl font-semibold mt-10 mb-3">
+                Search Queries
+            </h2>
+            <p className="text-muted-foreground">
+                Search queries are processed within the application and are
+                not stored on external servers. Any processing is used only
+                to return relevant results.
+            </p>
 
-        <p>
-          If you have questions about privacy, you can contact the project maintainer via the repository.
-        </p>
-      </section>
-    </main>
-  );
+            <h2 className="text-2xl font-semibold mt-10 mb-3">
+                Local Storage
+            </h2>
+            <p className="text-muted-foreground">
+                BenSearch may store recent searches locally on your device
+                using <code>localStorage</code>. This data never leaves your
+                device and can be cleared at any time through your browser
+                settings or the search history panel.
+            </p>
+
+            <h2 className="text-2xl font-semibold mt-10 mb-3">
+                Third-Party Sites
+            </h2>
+            <p className="text-muted-foreground">
+                Search results may link to external websites. BenSearch is
+                not responsible for the privacy practices of those sites.
+            </p>
+
+            <h2 className="text-2xl font-semibold mt-10 mb-3">
+                Our Commitment
+            </h2>
+            <p className="text-muted-foreground">
+                BenSearch is designed to avoid ads, tracking scripts, and
+                data selling practices commonly found in traditional search
+                engines.
+                <br />
+                <br />
+                <b>
+                    We believe search should be private, simple, and user-first.
+                </b>
+            </p>
+        </main>
+    );
 }
