@@ -32,7 +32,7 @@ export default function Footer() {
                         target="_blank"
                         aria-label="Privacy Policy"
                     >
-                        <EyeIcon size={18} className="hover:opacity-70 transition" />
+                        <EyeIcon size={20} className="hover:opacity-70 transition" />
                     </Link>
                 </div>
                 <p className="text-sm text-muted-foreground">
