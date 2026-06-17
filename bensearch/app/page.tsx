@@ -12,11 +12,21 @@ export default function Home() {
   const router = useRouter();
   const [open, setOpen] = useState(false);
   const [historyOpen, setHistoryOpen] = useState(false);
+  const [searchHistory, setSearchHistory] = useState<string[]>([]);
 
   const handleSurprise = () => {
     const random = sites[Math.floor(Math.random() * sites.length)];
     router.push(random.url);
   };
+
+  useEffect(() => {
+  if (historyOpen) {
+    const history = JSON.parse(
+      localStorage.getItem("bensearch-history") || "[]"
+    );
+    setSearchHistory(history);
+  }
+}, [historyOpen]);
 
   return (
     <main className="min-h-screen flex flex-col items-center justify-center px-4">
@@ -79,6 +89,52 @@ export default function Home() {
                 NoBS Shortner
               </Link>
             </div>
+          </div>
+        </div>
+      )}
+
+      {historyOpen && (
+        <div className="fixed inset-0 z-50">
+          <div
+            className="absolute inset-0 bg-black/40"
+            onClick={() => setHistoryOpen(false)}
+          />
+
+          <div className="absolute right-0 top-0 h-full w-72 bg-[#0a0a0a] shadow-xl p-4">
+            <h2 className="text-lg text-[#ededed] font-semibold mb-4">
+              Search History
+            </h2>
+
+            <div className="space-y-2">
+              {searchHistory.length > 0 ? (
+                searchHistory.map((query, index) => (
+                  <Link
+                    key={`${query}-${index}`}
+                    href={`/search?q=${encodeURIComponent(query)}`}
+                    className="block p-2 hover:bg-gray-900 rounded text-[#ededed]"
+                    onClick={() => setHistoryOpen(false)}
+                  >
+                    {query}
+                  </Link>
+                ))
+              ) : (
+                <p className="text-sm text-gray-400">
+                  No searches yet.
+                </p>
+              )}
+            </div>
+
+            {searchHistory.length > 0 && (
+              <button
+                onClick={() => {
+                  localStorage.removeItem("bensearch-history");
+                  setSearchHistory([]);
+                }}
+                className="mt-4 text-sm text-red-400 hover:text-red-300"
+              >
+                Clear History
+              </button>
+            )}
           </div>
         </div>
       )}
