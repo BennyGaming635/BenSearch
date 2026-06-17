@@ -13,6 +13,7 @@ export default function Home() {
   const [open, setOpen] = useState(false);
   const [historyOpen, setHistoryOpen] = useState(false);
   const [searchHistory, setSearchHistory] = useState<string[]>([]);
+  const [privacyOpen, setPrivacyOpen] = useState(false);
 
   const handleSurprise = () => {
     const random = sites[Math.floor(Math.random() * sites.length)];
