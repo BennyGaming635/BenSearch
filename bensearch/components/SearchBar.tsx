@@ -32,7 +32,16 @@ export default function SearchBar() {
     };
 
     return (
-        <form action="/search">
+        <form
+            onSubmit={(e) => {
+                e.preventDefault();
+                if (query.trim()) return;
+                saveSearch(query);
+                router.push(`/search?q=${encodeURIComponent(query)}`
+                );
+            }}
+        >    
+            
             <input
                 type="text"
                 name="q"
@@ -40,8 +49,6 @@ export default function SearchBar() {
                 onChange={(e) => {
                     setQuery(e.target.value);
                     setActive(0);
-                    saveSearch(query);
-                    router.push(`/search?q=${encodeURIComponent(query)}`);
                 }}
                 placeholder="Search the web..."
                 className="w-full p-4 rounded-full border"
