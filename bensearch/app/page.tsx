@@ -47,6 +47,13 @@ export default function Home() {
         >
           <History className="w-5 h-5 text-gray-700" />
         </button>
+        <button
+          onClick={() => setPrivacyOpen(true)}
+          className="p-2 rounded hover:bg-gray-100"
+          aria-label="Open privacy policy"
+        >
+          <Shield className="w-5 h-5 text-gray-700" />
+        </button>
       </div>
 
       <Logo />
