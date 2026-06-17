@@ -115,6 +115,25 @@ export default function Home() {
         </div>
       )}
 
+      {privacyOpen && (
+        <div className="fixed inset-0 z-50">
+          <div
+            className="absolute inset-0 bg-black/40"
+            onClick={() => setPrivacyOpen(false)}
+          />
+
+          <div className="absolute right-0 top-0 h-full w-96 bg-[#0a0a0a] shadow-xl p-6 overflow-y-auto">
+            <h2 className="text-lg text-[#ededed] font-semibold mb-4">
+              Your <b>Privacy</b> is <b>our Priority</b>.
+            </h2>
+
+            <p className="text-sm text-gray-400">
+              BenSearch is committed to protecting your privacy. We do not track you, serve ads, or sell your data. For more details, you are able to review how data is handled within our service, including what <b>minimal</b> information may be stored to maintain core functionality such as search preferences or basic performance improvements. Any stored data is kepts strictly local or anonymised where applicable and is never linked back to personally identifiable information. If third-party services are used to process search results, they are selected for their privacy-respecting practices and are not permitted to store or reuse your data beyond providing the requested results. If a third party were to request access to your data, they will be required to ask you on behalf of BenSearch, you will have the option to deny this request and no data will be shared without your explicit consent. We are transparent about our data practices and are always available to answer any questions or concerns you may have about your privacy while using BenSearch.
+            </p>
+          </div>
+        </div>
+      )}
+
       {historyOpen && (
         <div className="fixed inset-0 z-50">
           <div
