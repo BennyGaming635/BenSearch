@@ -58,7 +58,13 @@ export default function SearchBar() {
                     {suggestions.map((s, i) => (
                         <div
                             key={s.url}
-                            onClick={() => router.push(`/search?q=${s.title}`)}
+                            onClick={() => {
+                                saveSearch(s.title);
+                                router.push(
+                                    `/search?q=${encodeURIComponent(s.title)}`
+                                );
+                            }}
+                            
                             className={`p-3 cursor-pointer ${
                                 i === active ? "bg-muted" : ""
                             }`}
