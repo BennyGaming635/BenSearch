@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { GitCommitVertical, Mail, Info } from "lucide-react";
+import { EyeIcon } from "../components/ui/eye";
 
 export default function Footer() {
     return (
