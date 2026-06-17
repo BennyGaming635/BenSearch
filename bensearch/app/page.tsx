@@ -32,27 +32,29 @@ export default function Home() {
   return (
     <main className="min-h-screen flex flex-col items-center justify-center px-4">
       <section className="min-h-screen flex flex-col items-center justify-center px-4">
-      <div className="absolute top-4 right-4">
+      <div className="absolute top-4 right-4 flex gap-2 backdrop-blur-md p-2 rounded-full shadow-sm">
         <button
           onClick={() => setOpen(true)}
-          className="p-2 rounded hover:bg-gray-100"
+          className="p-2 rounded-full text-gray-600 transition-all duration-200 hover:bg-white hover:text-gray-900 hover:shadow-md"
           aria-label="Open apps"
         >
-          <Menu className="w-5 h-5 text-gray-700" />
+          <Menu className="w-5 h-5" />
         </button>
+
         <button
           onClick={handleHistoryOpen}
-          className="p-2 rounded hover:bg-gray-100"
+          className="p-2 rounded-full text-gray-600 transition-all duration-200 hover:bg-white hover:text-gray-900 hover:shadow-md"
           aria-label="Open search history"
         >
-          <History className="w-5 h-5 text-gray-700" />
+          <History className="w-5 h-5" />
         </button>
+
         <button
           onClick={() => setPrivacyOpen(true)}
-          className="p-2 rounded hover:bg-gray-100"
+          className="p-2 rounded-full text-gray-600 transition-all duration-200 hover:bg-white hover:text-gray-900 hover:shadow-md"
           aria-label="Open privacy policy"
         >
-          <Shield className="w-5 h-5 text-gray-700" />
+          <Shield className="w-5 h-5" />
         </button>
       </div>
 
